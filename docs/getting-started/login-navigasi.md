@@ -18,7 +18,7 @@ Halaman ini menjelaskan cara login ke ORBIT UNSURYA dan navigasi awal sistem set
    - Judul **ORBIT UNSURYA**
    - Form login dengan dua field
 
-<img src="/img/getting-started/login-form.png" alt="Halaman Login" width="700" />
+![Halaman Login](/img/getting-started/login-form.png)
 
 3. Isi form login:
    - **Email / NIDN / NIP**: Masukkan email, NIDN, atau NIP Anda yang terdaftar di sistem
@@ -47,7 +47,7 @@ Setelah login berhasil, Anda akan masuk ke **Dashboard** yang menampilkan ringka
 - **Antrian Pendanaan**: Jumlah dana yang siap untuk didistribusikan
 - **Status Review**: Overview status review dengan kategori Assigned, In Progress, Completed, dan Overdue
 
-<img src="/img/getting-started/dashboard-admin.png" alt="Dashboard Admin" width="700" />
+![Dashboard Admin](/img/getting-started/dashboard-admin.png)
 
 ### Dashboard Dosen
 
@@ -59,7 +59,7 @@ Setelah login berhasil, Anda akan masuk ke **Dashboard** yang menampilkan ringka
 - **Statistik Proposal**: Success rate dan jumlah proposal per kategori (Penelitian/Pengabdian)
 - **Status Proposal**: Ringkasan status proposal (Draft, Under Review, Approved, Funded, Completed)
 
-<img src="/img/getting-started/dashboard-dosen.png" alt="Dashboard Dosen" width="700" />
+![Dashboard Dosen](/img/getting-started/dashboard-dosen.png)
 
 ### Dashboard Reviewer
 
@@ -116,7 +116,7 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
 - **Final Report Recap**: Recap laporan final dari dosen
 - **Proposal Revision Recap**: Recap revisi proposal dari dosen
 
-<img src="/img/getting-started/sidebar-admin.png" alt="Sidebar Admin" width="400" />
+![Sidebar Admin](/img/getting-started/sidebar-admin.png)
 
 ### Navigasi Dosen
 
@@ -136,7 +136,7 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
 - **Proposal yang Ditugaskan**: Lihat proposal yang sedang dalam proses review
 - **Tugas Assignment**: Lihat pengumuman dan tugas dari sistem
 
-<img src="/img/getting-started/sidebar-dosen.png" alt="Sidebar Dosen" width="400" />
+![Sidebar Dosen](/img/getting-started/sidebar-dosen.png)
 
 ### Navigasi Reviewer
 
@@ -160,7 +160,7 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
    - **Pengaturan**: Atur preferensi sistem
    - **Keluar**: Logout dari sistem
 
-<img src="/img/getting-started/logout-dropdown.png" alt="Dropdown Logout" width="350" />
+![Dropdown Logout](/img/getting-started/logout-dropdown.png)
 
 3. Klik **Keluar** untuk logout
 

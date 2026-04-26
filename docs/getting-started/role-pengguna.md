@@ -63,7 +63,7 @@ TUGAS & AKTIVITAS
 
 ### Dashboard Dosen
 
-<img src="/img/getting-started/dashboard-dosen.png" alt="Dashboard Dosen" width="700" />
+![Dashboard Dosen](/img/getting-started/dashboard-dosen.png)
 
 Dashboard Dosen menampilkan ringkasan personal:
 - **Proposal Saya** — jumlah proposal sebagai ketua
@@ -105,7 +105,7 @@ TUGAS & AKTIVITAS
 
 ### Dashboard Reviewer
 
-<img src="/img/getting-started/dashboard-reviewer.png" alt="Dashboard Reviewer" width="700" />
+![Dashboard Reviewer](/img/getting-started/dashboard-reviewer.png)
 
 Dashboard Reviewer menampilkan ringkasan pekerjaan review:
 - **Reviewer Profile** — status aktif, jumlah total reviews, beban kerja saat ini
@@ -170,7 +170,7 @@ TUGAS & AKTIVITAS
 
 ### Dashboard Admin
 
-<img src="/img/getting-started/dashboard-admin.png" alt="Dashboard Admin" width="700" />
+![Dashboard Admin](/img/getting-started/dashboard-admin.png)
 
 Dashboard Admin menampilkan metrics operasional sistem:
 - **Menunggu Review Administratif** — proposal yang perlu pemeriksaan administratif sebelum masuk review
