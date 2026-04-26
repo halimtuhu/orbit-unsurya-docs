@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorbit_unsurya_docs=self.webpackChunkorbit_unsurya_docs||[]).push([["668"],{6569(r,s,e){e.r(s),e.d(s,{default:()=>d});var u=e(4848);e(6540);var a=e(4164),c=e(4308),n=e(8287),t=e(2831),o=e(1085);function d(r){return(0,u.jsx)(c.e3,{className:(0,a.A)(n.G.wrapper.docsPages),children:(0,u.jsx)(o.A,{children:(0,t.v)(r.route.routes)})})}}}]);
