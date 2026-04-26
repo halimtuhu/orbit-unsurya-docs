@@ -18,6 +18,8 @@ Halaman ini menjelaskan cara login ke ORBIT UNSURYA dan navigasi awal sistem set
    - Judul **ORBIT UNSURYA**
    - Form login dengan dua field
 
+![Halaman Login](/img/getting-started/login-form.png)
+
 3. Isi form login:
    - **Email / NIDN / NIP**: Masukkan email, NIDN, atau NIP Anda yang terdaftar di sistem
    - **Kata sandi**: Masukkan kata sandi Anda
@@ -26,8 +28,10 @@ Halaman ini menjelaskan cara login ke ORBIT UNSURYA dan navigasi awal sistem set
 
 5. Jika login berhasil, sistem akan mengarahkan Anda ke halaman **Dashboard** sesuai dengan role Anda.
 
-:::info Lupa Kata Sandi?
+:::info[Lupa Kata Sandi?]
+
 Jika lupa kata sandi, hubungi administrator sistem untuk reset password.
+
 :::
 
 ## Halaman Setelah Login (Dashboard)
@@ -43,6 +47,8 @@ Setelah login berhasil, Anda akan masuk ke **Dashboard** yang menampilkan ringka
 - **Antrian Pendanaan**: Jumlah dana yang siap untuk didistribusikan
 - **Status Review**: Overview status review dengan kategori Assigned, In Progress, Completed, dan Overdue
 
+![Dashboard Admin](/img/getting-started/dashboard-admin.png)
+
 ### Dashboard Dosen
 
 **Dashboard Dosen** menampilkan:
@@ -52,6 +58,8 @@ Setelah login berhasil, Anda akan masuk ke **Dashboard** yang menampilkan ringka
 - **Perlu Tindakan**: Draft dan laporan yang memerlukan tindakan
 - **Statistik Proposal**: Success rate dan jumlah proposal per kategori (Penelitian/Pengabdian)
 - **Status Proposal**: Ringkasan status proposal (Draft, Under Review, Approved, Funded, Completed)
+
+![Dashboard Dosen](/img/getting-started/dashboard-dosen.png)
 
 ### Dashboard Reviewer
 
@@ -108,6 +116,8 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
 - **Final Report Recap**: Recap laporan final dari dosen
 - **Proposal Revision Recap**: Recap revisi proposal dari dosen
 
+![Sidebar Admin](/img/getting-started/sidebar-admin.png)
+
 ### Navigasi Dosen
 
 **RINGKASAN**
@@ -125,6 +135,8 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
 - **Proposal**: Daftar proposal dengan status dan aksi yang dibutuhkan
 - **Proposal yang Ditugaskan**: Lihat proposal yang sedang dalam proses review
 - **Tugas Assignment**: Lihat pengumuman dan tugas dari sistem
+
+![Sidebar Dosen](/img/getting-started/sidebar-dosen.png)
 
 ### Navigasi Reviewer
 
@@ -148,10 +160,14 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
    - **Pengaturan**: Atur preferensi sistem
    - **Keluar**: Logout dari sistem
 
+![Dropdown Logout](/img/getting-started/logout-dropdown.png)
+
 3. Klik **Keluar** untuk logout
 
 4. Sistem akan mengarahkan Anda kembali ke halaman login dan sesi Anda akan berakhir
 
-:::tip Keamanan
+:::tip[Keamanan]
+
 Selalu logout sebelum menutup browser, terutama jika menggunakan komputer bersama atau publik.
+
 :::
