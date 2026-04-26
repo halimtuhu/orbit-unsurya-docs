@@ -1,41 +1,37 @@
-# Website
+# ORBIT UNSURYA — Dokumentasi Panduan Penggunaan
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Dokumentasi panduan penggunaan lengkap untuk sistem ORBIT UNSURYA (Organized and Innovative Research and Community Service) — sistem manajemen penelitian dan pengabdian masyarakat Universitas Dirgantara Marsekal Suryadarma.
 
-## Installation
+**Live site**: https://halimtuhu.github.io/orbit-unsurya-docs/
 
-```bash
-yarn
-```
+**Sistem ORBIT**: https://orbit.unsurya.ac.id/
 
-## Local Development
+---
 
-```bash
-yarn start
-```
+## Development
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+### Installation
 
 ```bash
-yarn build
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### Local Development
 
 ```bash
-USE_SSH=true yarn deploy
+npm run start
 ```
 
-Not using SSH:
+Starts a local dev server at `http://localhost:3001`. Most changes are reflected live without restarting.
+
+### Build
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm run build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Generates static content into the `build/` directory. Run this before pushing to verify no broken links.
+
+### Deployment
+
+Deployed automatically via GitHub Actions to GitHub Pages on push to `main`.
