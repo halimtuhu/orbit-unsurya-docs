@@ -23,8 +23,8 @@ Halaman User Management menampilkan tabel yang berisi informasi pengguna dengan 
 
 - **User**: Nama pengguna dan email terdaftar
 - **Roles & Status**: Role pengguna (Admin, Dosen, Reviewer, Super Admin) dan status akun (Active/Inactive) serta verifikasi email (Verified/Unverified)
-- **Profile Info**: Menunjukkan apakah pengguna telah melengkapi profil mereka
-- **Last Activity**: Waktu aktivitas terakhir pengguna dalam sistem
+- **Profile Info**: Informasi profil pengguna — menampilkan departemen (untuk dosen/admin) atau pengalaman reviewer. Menampilkan **No profile** jika pengguna belum memiliki profil yang terkait.
+- **Last Activity**: Waktu terakhir pengguna login ke sistem. Menampilkan **Never** jika pengguna belum pernah login sejak akun dibuat.
 - **Created**: Tanggal dan waktu akun pengguna dibuat
 - **Action**: Tombol menu untuk aksi terhadap pengguna
 
