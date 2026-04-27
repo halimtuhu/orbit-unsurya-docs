@@ -52,7 +52,7 @@ Setelah memilih program dan batch, tombol **Continue to Proposal Details** akan 
 
 ![Batch Terpilih](/img/dosen/proposal-create-step0-batch-selected.png)
 
-Klik tombol tersebut untuk masuk ke wizard 7 langkah.
+Klik tombol tersebut untuk masuk ke wizard 5 langkah.
 
 :::warning[Perhatian]
 
@@ -227,9 +227,56 @@ Dokumen substansi harus jelas dan terstruktur. Reviewer akan mengevaluasi kualit
 
 :::
 
+### 2.3 Luaran Target Capaian
+
+Bagian ini untuk mendaftarkan luaran yang ditargetkan dari penelitian atau pengabdian.
+
+**Menambah Luaran**
+1. Isi field **Tahun** (tahun target capaian)
+2. Klik tombol **+ Tambah** untuk menambahkan item luaran
+3. Akan tampil form untuk memasukkan:
+   - Kategori Luaran
+   - Jenis Luaran
+   - Status Capaian
+   - Keterangan
+4. Setelah mengisi, item akan muncul dalam tabel
+
+**Tabel Luaran**
+- Menampilkan kolom: No, Kategori Luaran, Jenis Luaran, Status Capaian, Keterangan, Aksi
+- Kolom Aksi untuk mengubah atau menghapus item
+
+### 2.4 Keterkaitan Kegiatan dengan IKU (Indikator Kinerja Utama)
+
+Bagian ini untuk menjelaskan keterkaitan kegiatan penelitian dengan IKU universitas.
+
+**Menambah IKU**
+1. Klik tombol **+ Tambah**
+2. Akan tampil form untuk memasukkan:
+   - Indikator IKU
+   - Uraian IKU
+   - Uraian Kegiatan (penjelasan keterkaitannya)
+3. Setelah mengisi, item akan muncul dalam tabel
+
+**Tabel IKU**
+- Menampilkan kolom: No, Indikator IKU, Uraian IKU, Uraian Kegiatan, Aksi
+
+### 2.5 Tujuan Pembangunan Berkelanjutan / Sustainable Development Goals (SDGs)
+
+Bagian ini untuk menjelaskan kontribusi kegiatan terhadap SDGs.
+
+**Menambah SDGs**
+1. Klik tombol **+ Tambah**
+2. Akan tampil form untuk memasukkan:
+   - Sustainable Development Goals (SDGs) yang relevan
+   - Uraian Kegiatan (penjelasan kontribusinya)
+3. Setelah mengisi, item akan muncul dalam tabel
+
+**Tabel SDGs**
+- Menampilkan kolom: No, Sustainable Development Goals (SDGs), Uraian Kegiatan, Aksi
+
 ### Melanjutkan ke Langkah 3
 
-Setelah mengisi substansi usulan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Rancangan Anggaran Biaya (RAB).
+Setelah mengisi substansi usulan, klik tombol **Next** untuk melanjutkan ke langkah Rancangan Anggaran Biaya (RAB).
 
 ## Langkah 3: Rancangan Anggaran Biaya (RAB)
 
@@ -271,7 +318,7 @@ Pastikan total anggaran yang Anda usulkan tidak melebihi batas maksimal program 
 
 ### Melanjutkan ke Langkah 4
 
-Setelah mengisi semua item RAB, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Dokumen Pendukung.
+Setelah mengisi semua item RAB, klik tombol **Next** untuk melanjutkan ke langkah Dokumen Pendukung.
 
 ## Langkah 4: Dokumen Pendukung
 
@@ -312,7 +359,7 @@ Halaman ini menampilkan dokumen-dokumen wajib dan opsional yang harus atau dapat
 
 ### Melanjutkan ke Langkah 5
 
-Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Konfirmasi Usulan.
+Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Next** untuk melanjutkan ke langkah Konfirmasi Usulan.
 
 ## Langkah 5: Konfirmasi Usulan
 
@@ -320,10 +367,9 @@ Langkah terakhir adalah mereviu semua data proposal Anda sebelum pengajuan.
 
 ![Konfirmasi Usulan](/img/dosen/proposal-create-step5-konfirmasi.png)
 
-### 5.1 Review Proposal
+### 5.1 Ringkasan Data Proposal
 
-**Ringkasan Lengkap**
-Halaman ini menampilkan ringkasan lengkap dari semua data yang telah Anda isi di langkah 1-4, disusun dalam beberapa bagian:
+Halaman ini menampilkan ringkasan dari semua data yang telah Anda isi di langkah 1-4:
 
 **1. Identitas Usulan**
 - Judul Proposal
@@ -335,61 +381,71 @@ Halaman ini menampilkan ringkasan lengkap dari semua data yang telah Anda isi di
 - Lama Kegiatan
 - Ketua Pelaksana
 
-**2. Tim Pelaksana**
-- Ketua Pelaksana
-- Daftar Anggota Dosen (jika ada)
+**Tim Pelaksana**
+- Daftar Anggota Dosen beserta status persetujuan
 - Daftar Anggota Non-Dosen (jika ada)
 - Daftar Mahasiswa (jika ada)
 
-**3. Identitas Mitra (jika ada)**
-- Daftar mitra yang ditambahkan di langkah 2
+**2. Substansi Usulan**
+- Status upload dokumen substansi
 
-**4. Substansi Usulan**
-- Dokumen substansi yang sudah diupload
+**3. Rancangan Anggaran Biaya**
+- Ringkasan item RAB yang telah diisi
 
-**5. Rancangan Anggaran Biaya**
-- Daftar item RAB
-- Total anggaran yang diminta
+**4. Dokumen Pendukung**
+- Status Surat Pernyataan Orisinalitas
+- Dokumen Dukung Lainnya (jika ada)
 
-**6. Dokumen Pendukung**
-- Surat Pernyataan Orisinalitas
-- Dokumen pendukung lainnya (jika ada)
+Periksa setiap bagian. Jika ada data yang perlu diperbaiki, klik tab step yang bersangkutan di bagian atas wizard untuk kembali ke langkah tersebut.
 
-**Periksa Kembali Data**
-1. Baca setiap bagian dengan teliti
-2. Pastikan semua informasi sudah benar
-3. Verifikasi bahwa semua dokumen sudah terupload dengan baik
-4. Jika ada kesalahan, gunakan tombol **Ubah** di bagian yang perlu diperbaiki
+### 5.2 Download Proposal PDF
 
-### 5.2 Tombol Aksi
+Sebelum submit, Anda dapat mengunduh draft proposal dalam format PDF untuk diperiksa.
 
-**Tombol Ubah**
-- Tekan tombol ini untuk kembali memperbaiki data di langkah tertentu
-- Sistem akan membuka langkah yang ingin Anda ubah
-- Setelah selesai mengubah, Anda akan kembali ke halaman konfirmasi
+1. Klik tombol **Generate PDF**
+2. Sistem akan memproses dan menghasilkan file PDF proposal
+3. File PDF yang sudah dibuat akan muncul di bagian **Riwayat PDF**
+4. Klik file di Riwayat PDF untuk mengunduhnya
 
-**Tombol Submit Proposal**
-- Tombol ini digunakan untuk mengajukan proposal secara resmi
-- Pastikan semua data sudah benar sebelum mengklik tombol ini
-- Setelah disubmit, proposal tidak dapat diubah lagi
+:::note[Catatan]
+
+Generate PDF dapat dilakukan berulang kali. Setiap PDF yang dibuat akan tercatat di Riwayat PDF.
+
+:::
+
+### 5.3 Konfirmasi Data
+
+Sebelum tombol **Submit untuk Review** aktif, Anda harus mencentang seluruh pernyataan berikut:
+
+- Data identitas dan substansi usulan sudah benar dan sesuai
+- Data tim pelaksana sudah lengkap dan benar
+- Rancangan anggaran biaya sudah sesuai dan benar
+- Dokumen pendukung sudah lengkap dan benar
+- Isi substansi usulan sudah sesuai dengan ketentuan
+- Saya menyatakan bahwa semua data yang disampaikan adalah benar dan dapat dipertanggungjawabkan
+
+Centang semua pernyataan di atas untuk mengaktifkan tombol **Submit untuk Review**.
+
+### 5.4 Submit Proposal
+
+Setelah semua konfirmasi dicentang, klik tombol **Submit untuk Review** untuk mengajukan proposal secara resmi.
 
 :::warning[Perhatian - Periksa Sebelum Submit]
 
-Sebelum mengklik **Submit Proposal**, pastikan:
+Sebelum mengklik **Submit untuk Review**, pastikan:
 - Semua data di setiap bagian sudah lengkap dan benar
 - Semua dokumen wajib (terutama Surat Pernyataan Orisinalitas) sudah diupload
-- Proposal akan diajukan sebelum deadline batch
-- Anda telah membuat salinan data proposal Anda (jika diperlukan)
+- Proposal diajukan sebelum deadline batch
 
-**Catatan Penting**: Setelah proposal disubmit, Anda TIDAK dapat mengubah data lagi. Jika ada kesalahan serius setelah submit, hubungi administrator untuk bantuan revisi.
+**Catatan Penting**: Setelah proposal disubmit, Anda TIDAK dapat mengubah data lagi. Jika ada kesalahan serius setelah submit, hubungi administrator.
 
 :::
 
 ### Setelah Pengajuan
 
 Setelah proposal berhasil disubmit:
-1. Status proposal berubah menjadi **SUBMITTED**
-2. Anda akan menerima notifikasi email konfirmasi
+1. Status proposal berubah menjadi **Terkirim**
+2. Anda akan menerima notifikasi konfirmasi
 3. Proposal akan masuk ke tahap evaluasi selanjutnya
 4. Pantau status proposal di halaman **Proposal Saya**
 
@@ -407,8 +463,8 @@ Jika Anda ingin mengerjakan proposal kemudian:
 **Q: Tombol Lanjutkan tidak aktif padahal saya sudah mengisi semua field?**
 A: Pastikan semua field yang ditandai dengan (*) sudah diisi dan sesuai dengan format yang diminta. Periksa juga tidak ada pesan error di bawah field input.
 
-**Q: Bagaimana jika saya lupa password untuk mengakses sistem?**
-A: Gunakan fitur "Lupa Password" di halaman login, atau hubungi administrator sistem.
+**Q: Bagaimana jika saya lupa kata sandi untuk mengakses sistem?**
+A: Gunakan fitur "Lupa Kata Sandi" di halaman login, atau hubungi administrator sistem.
 
 **Q: Bisakah saya mengubah program dan batch setelah memulai wizard?**
 A: Tidak. Program dan batch tidak dapat diubah setelah Anda mulai mengisi wizard. Jika perlu mengubah, Anda harus membuat proposal baru.
