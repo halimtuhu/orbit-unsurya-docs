@@ -182,190 +182,216 @@ Tombol Lanjutkan hanya akan aktif jika semua field yang ditandai dengan (*) suda
 
 ## Langkah 2: Substansi Usulan
 
-Langkah ini meminta Anda untuk menjelaskan substansi atau inti dari penelitian atau pengabdian yang akan dilakukan.
+Langkah ini untuk menambahkan mitra dan mengunggah dokumen substansi proposal Anda.
 
 ![Substansi Usulan](/img/dosen/proposal-create-step2-substansi.png)
 
-### 2.1 Penjelasan Singkat Usulan
+### 2.1 Identitas Mitra
 
-**Ringkasan Eksekutif (Wajib)**
-- Uraikan ringkasan singkat tentang penelitian atau pengabdian Anda
-- Jelaskan latar belakang dan pentingnya penelitian ini
-- Maksimal 500-1000 karakter
+Bagian ini menampilkan daftar mitra yang terlibat dalam proposal (opsional).
 
-### 2.2 Tujuan dan Target
+**Menambah Mitra**
+1. Klik tombol **+ Tambah** untuk menambahkan mitra baru
+2. Akan tampil form untuk memasukkan data mitra:
+   - Nama Mitra
+   - Instansi/Organisasi
+   - Bidang Usaha
+3. Setelah mengisi, mitra akan muncul dalam tabel
 
-**Tujuan Penelitian/Pengabdian (Wajib)**
-- Tuliskan tujuan utama dari penelitian atau pengabdian
-- Jelaskan apa yang ingin dicapai dengan penelitian ini
-- Tujuan harus terukur dan spesifik
+**Tabel Mitra**
+- Menampilkan kolom: No, Mitra, Instansi, Bidang Usaha, Aksi
+- Kolom Aksi untuk mengubah atau menghapus mitra
 
-**Luaran yang Diharapkan (Wajib)**
-- Deskripsikan hasil atau luaran yang diharapkan dari penelitian
-- Contoh: publikasi, produk, layanan masyarakat, dll
-- Spesifikasikan jumlah dan jenis luaran
+:::note[Catatan]
 
-### 2.3 Metodologi
+Penambahan mitra bersifat opsional. Jika proposal Anda tidak melibatkan mitra eksternal, bagian ini dapat dikosongkan.
 
-**Metode Penelitian/Pendekatan (Wajib)**
-- Jelaskan metodologi atau pendekatan yang akan digunakan
-- Deskripsikan tahapan-tahapan pelaksanaan
-- Jelaskan teknik pengumpulan dan analisis data
+:::
 
-**Jadwal Pelaksanaan (Wajib)**
-- Buatlah rencana jadwal kegiatan penelitian
-- Dengan memperhatikan durasi yang telah ditentukan pada langkah sebelumnya
-- Jelaskan alokasi waktu untuk setiap tahapan kegiatan
+### 2.2 Substansi Usulan
 
-:::tip[Catatan]
+**Dokumen Substansi (Wajib)**
+1. Klik tombol **Download Template** untuk mengunduh template dokumen substansi
+2. Isi template dengan penjelasan lengkap tentang:
+   - Tujuan penelitian/pengabdian
+   - Metodologi yang akan digunakan
+   - Jadwal pelaksanaan
+   - Luaran yang diharapkan
+3. Unggah file PDF yang sudah diisi ke area upload
+   - Format: PDF
+   - Ukuran maksimal: 10 MB
 
-Substansi usulan harus jelas dan terstruktur. Reviewer akan mengevaluasi kualitas ide dan metodologi penelitian Anda berdasarkan bagian ini.
+:::warning[Penting]
+
+Dokumen substansi harus jelas dan terstruktur. Reviewer akan mengevaluasi kualitas ide dan metodologi penelitian Anda berdasarkan bagian ini.
 
 :::
 
 ### Melanjutkan ke Langkah 3
 
-Setelah mengisi semua field substansi, klik tombol **Lanjutkan** untuk melanjutkan ke langkah rancangan anggaran biaya.
+Setelah mengisi substansi usulan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Rancangan Anggaran Biaya (RAB).
 
 ## Langkah 3: Rancangan Anggaran Biaya (RAB)
 
-Langkah ini meminta Anda untuk merencanakan dan mengalokasikan anggaran untuk penelitian atau pengabdian Anda.
+Langkah ini untuk merencanakan dan mengalokasikan anggaran untuk penelitian atau pengabdian Anda.
 
 ![Rancangan Anggaran Biaya](/img/dosen/proposal-create-step3-rab.png)
 
-### 3.1 Komponen Biaya
+### 3.1 Rencana Anggaran Belanja
 
-Pada langkah ini, Anda akan mengalokasikan anggaran ke beberapa komponen utama:
+**Menambah Item RAB (Wajib)**
+1. Klik tombol **+ Tambah** untuk menambahkan item anggaran
+2. Akan tampil form untuk memasukkan:
+   - Kelompok RAB (misalnya: Tenaga Kerja, Bahan, Peralatan, Perjalanan, dll)
+   - Komponen (nama komponen, misalnya: Gaji peneliti, Bahan kimia, dll)
+   - Item (detail item, misalnya: Peneliti utama, Bahan X jenis Y)
+   - Satuan (unit, misalnya: orang, kg, buah, dll)
+   - Volume (jumlah)
+   - Harga Satuan (harga per unit)
+   - Total (otomatis dihitung: volume × harga satuan)
+3. Setelah mengisi, item akan muncul dalam tabel
 
-**Biaya Tenaga Kerja (Wajib)**
-- Alokasikan biaya untuk tenaga peneliti dan asisten penelitian
-- Tentukan durasi keterlibatan dan tarif per jam/bulan
-- Hitung total biaya tenaga kerja
+**Tabel RAB**
+- Menampilkan kolom: Kelompok RAB, Komponen, Item, Satuan, Volume, Harga Satuan, Total, Aksi
+- Total anggaran otomatis dihitung dari semua item
+- Kolom Aksi untuk mengubah atau menghapus item
 
-**Biaya Bahan dan Peralatan (Wajib)**
-- Tentukan bahan-bahan yang diperlukan untuk penelitian
-- Alokasikan biaya untuk peralatan yang harus dibeli atau disewa
-- Jelaskan kebutuhan dan spesifikasi untuk setiap item
+:::warning[Penting]
 
-**Biaya Perjalanan (Opsional)**
-- Jika diperlukan, alokasikan biaya untuk perjalanan dinas
-- Tentukan tujuan, durasi, dan estimasi biaya perjalanan
-- Jelaskan alasan dan kebutuhan perjalanan
-
-**Biaya Lainnya (Opsional)**
-- Alokasikan biaya untuk komponen lain yang diperlukan
-- Contoh: publikasi, seminar, asuransi, administrasi, dll
-- Jelaskan detail dan kebutuhan untuk setiap komponen
-
-### 3.2 Ringkasan Anggaran
-
-**Total Anggaran (Wajib)**
-- Total anggaran yang diminta otomatis dihitung dari semua komponen
-- Pastikan total anggaran tidak melebihi batas maksimal program
-- Informasi batas maksimal dapat dilihat dari informasi program
-
-:::warning[Perhatian]
-
-Anggaran yang diajukan harus realistis dan dapat dipertanggungjawabkan. Reviewer akan mengevaluasi kewajaran anggaran yang Anda usulkan.
+Pastikan total anggaran yang Anda usulkan tidak melebihi batas maksimal program yang ditampilkan pada halaman pilih program. Anggaran harus realistis dan dapat dipertanggungjawabkan.
 
 :::
 
+### 3.2 Catatan (Opsional)
+
+**Tambahan Catatan untuk Anggaran**
+- Anda dapat menambahkan catatan atau penjelasan tambahan tentang rencana anggaran
+- Gunakan textarea untuk menjelaskan dasar perhitungan atau hal penting lainnya
+- Bagian ini bersifat opsional
+
 ### Melanjutkan ke Langkah 4
 
-Setelah mengisi semua komponen anggaran, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Dokumen Pendukung.
+Setelah mengisi semua item RAB, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Dokumen Pendukung.
 
 ## Langkah 4: Dokumen Pendukung
 
-Langkah ini meminta Anda untuk mengunggah dokumen-dokumen yang mendukung proposal Anda.
+Langkah ini untuk mengunggah dokumen-dokumen pendukung yang diperlukan untuk proposal Anda.
 
 ![Dokumen Pendukung](/img/dosen/proposal-create-step4-dokumen.png)
 
-### 4.1 Upload Dokumen
+### 4.1 Data Pendukung
 
-**Dokumen yang Diperlukan (Tergantung Program)**
-- Berbagai dokumen mungkin diperlukan tergantung program dan skema yang dipilih
-- Dokumen umum meliputi: CV peneliti utama, surat dukungan institusi, izin etik, dll
-- Pastikan dokumen sudah lengkap sebelum mengupload
+Halaman ini menampilkan dokumen-dokumen wajib dan opsional yang harus atau dapat diupload.
 
-**Cara Upload Dokumen**
-1. Klik tombol **+ Tambah Dokumen** atau **Upload**
-2. Pilih file dari komputer Anda
-3. Tentukan tipe dokumen dari dropdown (jika ada)
-4. File akan otomatis diupload ke sistem
+**1. Surat Pernyataan Orisinalitas (Wajib)**
+- **Deskripsi**: Surat Pernyataan Orisinalitas Usulan yang ditandatangani oleh ketua pelaksana dan bermeterai Rp10.000,00
+- **Status**: Wajib diupload
+- **Template**: Klik tombol **Download Template** untuk mengunduh template surat
+- **Cara Upload**:
+  1. Isi template surat sesuai data proposal Anda
+  2. Tanda tangani dan beri meterai Rp10.000,00
+  3. Scan atau ambil foto dokumen yang sudah ditanda tangani
+  4. Unggah file PDF ke area upload
+- **Format & Ukuran**: PDF, maksimal 10 MB
 
-### 4.2 Daftar Dokumen Terupload
+**2. Dokumen Dukung Lainnya (Opsional)**
+- Anda dapat mengunggah dokumen pendukung tambahan seperti:
+  - CV peneliti utama
+  - Surat dukungan dari institusi mitra
+  - Izin etik (jika diperlukan)
+  - Dokumen lain yang relevan
+- **Format & Ukuran**: PDF, maksimal 10 MB per dokumen
 
-**Tabel Dokumen**
-- Menampilkan semua dokumen yang telah diupload
-- Kolom: Nama Dokumen, Tipe, Ukuran, Tanggal Upload, Aksi
-- Anda dapat mengunduh atau menghapus dokumen yang sudah diupload
+:::warning[Penting]
 
-:::warning[Perhatian]
-
-- Pastikan semua dokumen yang diperlukan sudah diupload
-- Ukuran file biasanya dibatasi (cek petunjuk di halaman)
-- Format file yang diterima biasanya: PDF, DOCX, XLS, XLSX, JPG, PNG
-- Nama file harus deskriptif dan tidak mengandung karakter khusus
+- Surat Pernyataan Orisinalitas **wajib** diupload sebelum melanjutkan ke langkah berikutnya
+- Pastikan scan/foto dokumen jelas dan dapat dibaca
+- Gunakan format PDF untuk konsistensi
 
 :::
 
 ### Melanjutkan ke Langkah 5
 
-Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah konfirmasi.
+Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Konfirmasi Usulan.
 
-## Langkah 5: Konfirmasi dan Pengajuan Proposal
+## Langkah 5: Konfirmasi Usulan
 
-Langkah terakhir adalah mereviu semua data proposal Anda dan mengajukannya.
+Langkah terakhir adalah mereviu semua data proposal Anda sebelum pengajuan.
 
-![Konfirmasi Proposal](/img/dosen/proposal-create-step5-konfirmasi.png)
+![Konfirmasi Usulan](/img/dosen/proposal-create-step5-konfirmasi.png)
 
-### 5.1 Review Data Proposal
+### 5.1 Review Proposal
 
-**Ringkasan Proposal**
-- Halaman ini menampilkan ringkasan lengkap dari semua langkah yang telah diisi
-- Informasi disusun per bagian:
-  - Identitas Usulan
-  - Substansi Usulan
-  - Rancangan Anggaran Biaya
-  - Dokumen Pendukung
+**Ringkasan Lengkap**
+Halaman ini menampilkan ringkasan lengkap dari semua data yang telah Anda isi di langkah 1-4, disusun dalam beberapa bagian:
 
-**Periksa Kembali Setiap Bagian**
-- Baca dengan teliti setiap bagian
-- Pastikan semua informasi sudah benar dan lengkap
-- Jika ada yang salah, gunakan tombol **Ubah** untuk kembali ke langkah sebelumnya
+**1. Identitas Usulan**
+- Judul Proposal
+- Kategori Program
+- Bidang Fokus Penelitian
+- Kelompok Skema
+- Ruang Lingkup
+- Tahun Usulan
+- Lama Kegiatan
+- Ketua Pelaksana
+
+**2. Tim Pelaksana**
+- Ketua Pelaksana
+- Daftar Anggota Dosen (jika ada)
+- Daftar Anggota Non-Dosen (jika ada)
+- Daftar Mahasiswa (jika ada)
+
+**3. Identitas Mitra (jika ada)**
+- Daftar mitra yang ditambahkan di langkah 2
+
+**4. Substansi Usulan**
+- Dokumen substansi yang sudah diupload
+
+**5. Rancangan Anggaran Biaya**
+- Daftar item RAB
+- Total anggaran yang diminta
+
+**6. Dokumen Pendukung**
+- Surat Pernyataan Orisinalitas
+- Dokumen pendukung lainnya (jika ada)
+
+**Periksa Kembali Data**
+1. Baca setiap bagian dengan teliti
+2. Pastikan semua informasi sudah benar
+3. Verifikasi bahwa semua dokumen sudah terupload dengan baik
+4. Jika ada kesalahan, gunakan tombol **Ubah** di bagian yang perlu diperbaiki
 
 ### 5.2 Tombol Aksi
 
 **Tombol Ubah**
-- Klik untuk kembali dan memperbaiki data pada langkah tertentu
-- Anda akan diminta memilih langkah mana yang akan diubah
+- Tekan tombol ini untuk kembali memperbaiki data di langkah tertentu
+- Sistem akan membuka langkah yang ingin Anda ubah
 - Setelah selesai mengubah, Anda akan kembali ke halaman konfirmasi
 
-**Tombol Submit / Kirim Proposal**
-- Klik untuk mengajukan proposal secara resmi
-- Setelah diklik, proposal akan masuk ke status **SUBMITTED**
-- Anda tidak dapat mengubah proposal setelah disubmit
-- Sistem akan menampilkan notifikasi sukses
+**Tombol Submit Proposal**
+- Tombol ini digunakan untuk mengajukan proposal secara resmi
+- Pastikan semua data sudah benar sebelum mengklik tombol ini
+- Setelah disubmit, proposal tidak dapat diubah lagi
 
-:::warning[Penting - Perhatian Sebelum Submit]
+:::warning[Perhatian - Periksa Sebelum Submit]
 
-Pastikan:
-- Semua data sudah benar dan lengkap
-- Semua dokumen pendukung sudah diupload
+Sebelum mengklik **Submit Proposal**, pastikan:
+- Semua data di setiap bagian sudah lengkap dan benar
+- Semua dokumen wajib (terutama Surat Pernyataan Orisinalitas) sudah diupload
 - Proposal akan diajukan sebelum deadline batch
-- Anda telah menyimpan salinan proposal (jika diperlukan)
+- Anda telah membuat salinan data proposal Anda (jika diperlukan)
 
-Setelah mengklik Submit, Anda tidak dapat mengubah proposal. Jika ada kesalahan, Anda harus menghubungi administrator untuk revisi.
+**Catatan Penting**: Setelah proposal disubmit, Anda TIDAK dapat mengubah data lagi. Jika ada kesalahan serius setelah submit, hubungi administrator untuk bantuan revisi.
 
 :::
 
-### Status Setelah Pengajuan
+### Setelah Pengajuan
 
-Setelah proposal disubmit:
-1. Status berubah menjadi **SUBMITTED**
-2. Anda akan menerima notifikasi email
-3. Proposal akan masuk ke antrian proses evaluasi
-4. Anda dapat memantau status proposal di halaman "Proposal Saya"
+Setelah proposal berhasil disubmit:
+1. Status proposal berubah menjadi **SUBMITTED**
+2. Anda akan menerima notifikasi email konfirmasi
+3. Proposal akan masuk ke tahap evaluasi selanjutnya
+4. Pantau status proposal di halaman **Proposal Saya**
 
 ## Menyimpan dan Melanjutkan Nanti
 
