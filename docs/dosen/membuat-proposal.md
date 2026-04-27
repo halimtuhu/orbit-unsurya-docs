@@ -1,13 +1,13 @@
 ---
 id: membuat-proposal
-title: Membuat Proposal (7-step wizard)
-sidebar_label: Membuat Proposal (7-step wizard)
+title: Membuat Proposal (5-step wizard)
+sidebar_label: Membuat Proposal (5-step wizard)
 sidebar_position: 1
 ---
 
-# Membuat Proposal (7-step wizard)
+# Membuat Proposal (5-step wizard)
 
-Panduan lengkap untuk membuat proposal penelitian atau pengabdian kepada masyarakat melalui wizard 7 langkah di ORBIT UNSURYA.
+Panduan lengkap untuk membuat proposal penelitian atau pengabdian kepada masyarakat melalui wizard 5 langkah di ORBIT UNSURYA.
 
 ## Memulai Pembuatan Proposal
 
