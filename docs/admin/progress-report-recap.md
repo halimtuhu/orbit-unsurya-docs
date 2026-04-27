@@ -7,139 +7,90 @@ sidebar_position: 14
 
 # Rekap Laporan Kemajuan
 
-Halaman ini menjelaskan cara memantau dan mengelola laporan kemajuan penelitian yang telah dikirimkan oleh para peneliti dari proposal yang telah didanai.
+Halaman ini menjelaskan cara memantau dan mengelola rekap laporan kemajuan penelitian yang telah dikirimkan oleh para peneliti dari proposal yang telah didanai.
 
 ## Membuka Halaman Rekap Laporan Kemajuan
 
 1. Login ke ORBIT UNSURYA sebagai **Admin**
-2. Di sidebar kiri, pada bagian **Monitoring & Pelaporan**, klik **Rekap Laporan Kemajuan**
-3. Sistem akan menampilkan daftar ringkas laporan kemajuan dari seluruh proposal yang didanai
+2. Di sidebar kiri, pada bagian **Proses Proposal**, klik **Rekap Laporan Kemajuan**
+3. Sistem akan menampilkan daftar rekap laporan kemajuan yang dikelompokkan berdasarkan skema
 
-## Daftar Ringkas Laporan Kemajuan
+## Halaman Daftar Rekap Laporan Kemajuan
 
-Halaman utama menampilkan tabel rekap dengan informasi berikut:
+Halaman utama menampilkan tabel rekap dengan informasi sebagai berikut:
 
 ![Daftar Rekap Laporan Kemajuan](/img/admin/progress-report-recap-list.png)
 
 | Kolom | Keterangan |
 |---|---|
 | **No.** | Nomor urut |
-| **Judul Proposal** | Judul proposal penelitian atau pengabdian masyarakat |
-| **Ketua Peneliti** | Nama dosen ketua peneliti |
-| **Program** | Nama program penelitian atau pengabdian |
-| **Batch** | Batch program terkait |
-| **Status Laporan** | Status pengumpulan laporan (Belum Dikumpulkan, Dikumpulkan, atau Diperbarui) |
-| **Tanggal Pengumpulan** | Tanggal terakhir laporan dikirimkan (jika ada) |
-| **Aksi** | Tombol akses untuk melihat detail |
+| **Skema** | Nama skema program penelitian atau pengabdian |
+| **Total Didanai** | Jumlah proposal yang telah didanai dalam skema tersebut |
+| **Total Lap. Kemajuan** | Jumlah laporan kemajuan yang telah diunggah |
+| **Status** | Persentase pengumpulan laporan kemajuan |
+| **Aksi** | Tombol **Detail** untuk melihat rincian per proposal |
 
-Bagian atas halaman menampilkan statistik ringkas:
-- Total proposal dengan laporan yang dikumpulkan
-- Total proposal dengan laporan yang belum dikumpulkan
-- Persentase tingkat pengumpulan laporan
+Bagian atas tabel menampilkan judul dan jumlah data yang ditampilkan, serta tombol **Export** untuk mengunduh data rekap.
 
-## Mencari dan Memfilter Laporan
+## Memfilter dan Mengelompokkan Data
 
-### Pencarian
+### Filter Data
 
-Ketik kata kunci pada kotak **Cari laporan...** untuk mencari berdasarkan:
-- Judul proposal
-- Nama ketua peneliti
-- Program
+![Filter dan Pengelompokan Rekap](/img/admin/progress-report-recap-filter.png)
 
-### Filter Program
+Tersedia tiga filter untuk menyaring data:
 
-1. Klik dropdown **Semua Program** untuk memilih program tertentu
-2. Pilih salah satu program dari daftar yang tersedia
-3. Daftar akan otomatis diperbarui menampilkan laporan dari program terpilih
+| Filter | Pilihan |
+|--------|---------|
+| **Jenis Kegiatan** | Semua, Penelitian, atau Pengabdian |
+| **Skema** | Semua Skema atau skema tertentu |
+| **Tahun Pelaksanaan** | Semua Tahun atau tahun tertentu |
 
-![Filter Program](/img/admin/progress-report-recap-filter.png)
+### Pengelompokan Data
 
-:::info
-Setelah memilih program, dropdown **Semua Batch** akan aktif dan dapat digunakan untuk penyaringan lebih lanjut.
-:::
+Di bawah filter, tersedia opsi **Kelompokkan berdasarkan**:
 
-### Filter Batch
+- **Skema** (default) — mengelompokkan data berdasarkan nama skema program
+- **Prodi** — mengelompokkan data berdasarkan program studi pengusul
 
-1. Pastikan sudah memilih program terlebih dahulu
-2. Klik dropdown **Semua Batch**
-3. Pilih batch yang diinginkan untuk melihat laporan dari batch spesifik
+Pilih salah satu opsi untuk mengubah tampilan tabel sesuai kebutuhan.
 
-:::tip
-Dropdown **Semua Batch** hanya aktif setelah program dipilih.
-:::
+## Mengekspor Data Rekap
 
-## Melihat Detail Laporan Kemajuan
+1. Klik tombol **Export** di pojok kanan atas halaman
+2. File data rekap akan diunduh otomatis ke perangkat Anda
 
-1. Temukan proposal yang ingin dilihat di tabel
-2. Klik tombol **Detail** pada kolom Aksi atau nama proposal
-3. Sistem akan membuka halaman detail laporan kemajuan
+## Melihat Detail Rekap per Skema
+
+1. Temukan skema yang ingin dilihat di tabel
+2. Klik tombol **Detail** pada kolom Aksi
+3. Sistem akan membuka halaman detail rekap laporan kemajuan
+
+### Halaman Detail Rekap
 
 ![Halaman Detail Rekap Laporan](/img/admin/progress-report-recap-detail.png)
 
-### Informasi di Halaman Detail
+Halaman detail menampilkan daftar proposal dalam skema terpilih beserta status laporan kemajuan masing-masing:
 
-Halaman detail menampilkan informasi lengkap laporan kemajuan:
+| Kolom | Keterangan |
+|-------|-----------|
+| **No.** | Nomor urut |
+| **Nama Pengusul** | Nama dosen pengusul proposal |
+| **Tanggal** | Tanggal laporan diunggah (kosong jika belum diunggah) |
+| **Judul** | Judul proposal penelitian atau pengabdian |
+| **Status** | Status pengumpulan laporan (Belum Unggah atau Sudah Unggah) |
+| **Aksi** | Tersedia jika laporan sudah diunggah (lihat atau unduh laporan) |
 
-| Informasi | Keterangan |
-|-----------|-----------|
-| **Judul Proposal** | Heading utama halaman |
-| **Ketua Peneliti** | Nama dosen penanggung jawab |
-| **Program** | Nama program penelitian atau pengabdian |
-| **Batch** | Batch program |
-| **Total Dana** | Jumlah dana yang disetujui |
-| **Status Laporan** | Status terkini pengumpulan laporan |
-| **Tanggal Pengumpulan** | Tanggal laporan pertama kali dikirimkan |
-| **Tanggal Perbaruan** | Tanggal laporan terakhir diperbarui (jika ada) |
+Bagian atas halaman menampilkan informasi skema dan jumlah total proposal. Tersedia juga pengaturan **Rows per page** untuk mengatur jumlah baris yang ditampilkan per halaman.
 
-## Mengunduh Laporan Kemajuan
+### Navigasi Kembali
 
-### Mengunduh dari Daftar Ringkas
-
-1. Pada tabel daftar rekap, temukan proposal yang laporan-nya ingin diunduh
-2. Klik tombol **Unduh** (ikon download) pada kolom Aksi
-3. Laporan akan diunduh dalam format PDF atau sesuai format yang tersedia
-
-### Mengunduh dari Halaman Detail
-
-1. Buka halaman detail laporan (lihat bagian "Melihat Detail Laporan Kemajuan")
-2. Klik tombol **Unduh Laporan** di halaman detail
-3. Laporan akan diunduh otomatis ke perangkat Anda
-
-:::info
-Laporan hanya dapat diunduh jika status laporan adalah "Dikumpulkan" atau "Diperbarui". Untuk proposal dengan status "Belum Dikumpulkan", tombol unduh tidak tersedia.
-:::
-
-## Status Laporan
-
-| Status | Keterangan |
-|--------|-----------|
-| **Belum Dikumpulkan** | Peneliti belum mengirimkan laporan kemajuan dalam periode yang ditentukan |
-| **Dikumpulkan** | Peneliti telah mengirimkan laporan kemajuan |
-| **Diperbarui** | Peneliti telah mengirimkan laporan kemajuan dan kemudian melakukan pembaruan |
-
-## Mencetak Rekap Laporan
-
-1. Pada halaman utama daftar rekap, klik tombol **Cetak** di bagian atas
-2. Dialog cetak akan muncul
-3. Pilih printer atau opsi "Simpan sebagai PDF"
-4. Klik **Cetak**
-
-:::tip
-Anda dapat mencetak seluruh daftar atau daftar yang sudah difilter sesuai kebutuhan.
-:::
-
-## Navigasi Kembali
-
-Gunakan breadcrumb di bagian atas halaman atau tombol **Kembali ke Daftar** untuk berpindah antar halaman.
+Klik tombol **Kembali ke Rekap** di bagian atas halaman untuk kembali ke daftar rekap, atau gunakan breadcrumb **Progress Report Recap** di bagian atas.
 
 ---
 
-## Catatan Penting
-
-:::warning
-Pastikan laporan sudah dikumpulkan oleh peneliti sebelum periode penutupan yang ditentukan. Admin dapat melihat status pengumpulan melalui halaman ini untuk memantau ketepatan waktu pengumpulan laporan.
-:::
-
 :::tip
+
 Untuk membuka atau menutup periode pengumpulan laporan kemajuan, gunakan menu **Periode Pelaporan** di bagian Pengaturan Program. Lihat halaman [Periode Pelaporan](./reporting-periods) untuk informasi lebih lanjut.
+
 :::
