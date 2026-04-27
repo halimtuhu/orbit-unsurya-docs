@@ -186,11 +186,13 @@ Wizard terdiri dari 5 langkah utama yang harus diselesaikan secara berurutan:
 
 Setiap langkah akan menjadi aktif setelah langkah sebelumnya berhasil diselesaikan.
 
-:::info Informasi Penting
+:::info[Informasi Penting]
+
 - Setiap langkah dapat disimpan dan dikerjakan kemudian (status DRAFT)
 - Gunakan tombol "Kembali" untuk kembali ke langkah sebelumnya
 - Data Anda otomatis tersimpan saat mengisi form
 - Jangan lupa untuk menyelesaikan semua langkah sebelum mengajukan proposal
+
 :::
 
 ## Menyimpan dan Melanjutkan Nanti
