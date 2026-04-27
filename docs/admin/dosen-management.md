@@ -7,13 +7,13 @@ sidebar_position: 2
 
 # Dosen Management
 
-Halaman **Dosen Management** memungkinkan administrator untuk mengelola data dosen (faculty) di sistem ORBIT UNSURYA, termasuk informasi profil, identitas, akademik, dan pekerjaan. Dari halaman ini, Anda juga dapat menugaskan dosen sebagai reviewer untuk proses evaluasi proposal.
+Halaman **Dosen Management** memungkinkan administrator untuk mengelola data dosen di sistem ORBIT UNSURYA, termasuk informasi profil, identitas, akademik, dan pekerjaan. Dari halaman ini, Anda juga dapat menugaskan dosen sebagai reviewer untuk proses evaluasi proposal.
 
 ## Mengakses Halaman Dosen Management
 
 1. Login ke sistem ORBIT UNSURYA dengan akun administrator
 
-2. Di sidebar sebelah kiri, pada bagian **MANAJEMEN PENGGUNA**, klik **Manajemen Dosen**
+2. Di sidebar sebelah kiri, pada bagian **Manajemen Pengguna**, klik **Manajemen Dosen**
 
 3. Anda akan masuk ke halaman daftar dosen
 
@@ -21,18 +21,20 @@ Halaman **Dosen Management** memungkinkan administrator untuk mengelola data dos
 
 ## Daftar Dosen
 
-Halaman daftar menampilkan tabel dosen dengan informasi berikut:
+Halaman daftar menampilkan tabel dosen dengan kolom berikut:
 
-- **Dosen Info**: Nama lengkap dosen dan email
-- **Academic Position**: Posisi akademik, tingkatan fungsional, dan fakultas
-- **Employment**: Jenis pekerjaan dan status kepegawaian
-- **Status**: Status dosen di sistem (Aktif/Tidak Aktif)
-- **Education**: Tingkat pendidikan dan status sertifikasi
-- **Action**: Tombol menu untuk aksi yang dapat dilakukan
+| Kolom | Keterangan |
+|-------|-----------|
+| **Dosen Info** | Nama lengkap dan email dosen |
+| **Academic Position** | Jabatan akademik, jabatan fungsional, dan fakultas |
+| **Employment** | Jenis kepegawaian dan tipe dosen |
+| **Status** | Status dosen di sistem (Aktif / Tidak Aktif / Pensiun) |
+| **Education** | Tingkat pendidikan dan status sertifikasi |
+| **Action** | Tombol menu untuk aksi yang dapat dilakukan |
 
-:::info[Informasi Daftar]
+:::info[Jumlah Dosen]
 
-Halaman daftar menampilkan jumlah total dosen yang terdaftar di sistem. Misalnya: "(1 lecturers)" menunjukkan ada 1 dosen terdaftar.
+Header halaman menampilkan jumlah total dosen yang terdaftar, misalnya: "(1 lecturers)".
 
 :::
 
@@ -40,46 +42,99 @@ Halaman daftar menampilkan jumlah total dosen yang terdaftar di sistem. Misalnya
 
 ### Pencarian
 
-1. Gunakan **Search box** di bagian atas halaman
+1. Gunakan **Search box** di bagian atas tabel
 
-2. Ketikkan informasi dosen yang ingin dicari berdasarkan:
+2. Ketikkan informasi dosen yang ingin dicari, antara lain:
    - Nama dosen
-   - Nomor registrasi (No. Registrasi)
-   - NUPTK (Nomor Unik Pendidik dan Tenaga Kependidikan)
-   - NIP (Nomor Induk Pegawai)
+   - Nomor registrasi (No. Registrasi / NIDN)
+   - NUPTK
+   - NIP
    - Email
 
 3. Hasil pencarian akan ditampilkan secara real-time di tabel
 
 ### Filter
 
-Di bawah search box, tersedia filter untuk mempersempit hasil:
+Di bawah search box, tersedia empat filter untuk mempersempit hasil:
 
-1. **Employment Type** (Jenis Kepegawaian): 
-   - Dosen Tetap
-   - Dosen Tidak Tetap
-   - Opsi lainnya sesuai konfigurasi
-
-2. **Lecturer Type** (Tipe Dosen): 
-   - Berbagai kategori dosen berdasarkan klasifikasi institusi
-
-3. **Status**: 
-   - Aktif (dosen aktif di sistem)
-   - Tidak Aktif (dosen tidak aktif)
-
-4. **Certification** (Sertifikasi): 
-   - Tersertifikasi
-   - Belum Tersertifikasi
+| Filter | Keterangan |
+|--------|-----------|
+| **Employment Type** | Jenis kepegawaian: ASN, PNS, TNI, NON ASN, dll |
+| **Lecturer Type** | Tipe dosen: Dosen Tetap / Dosen Tidak Tetap |
+| **Status** | Status: Aktif / Tidak Aktif / Pensiun |
+| **Certification** | Sertifikasi: Tersertifikasi / Belum Tersertifikasi |
 
 Anda dapat menggabungkan beberapa filter sekaligus untuk hasil yang lebih spesifik.
 
+## Menambah Dosen Baru
+
+1. Di halaman Dosen Management, klik tombol **Add Dosen** (kanan atas)
+
+2. Dialog **Add New Dosen** akan terbuka
+
+![Form Tambah Dosen](/img/admin/dosen-add-form.png)
+
+3. Pilih cara menghubungkan akun pengguna:
+   - **Link to Existing User** — pilih akun pengguna yang sudah terdaftar melalui dropdown
+   - **Create New User** — centang opsi ini untuk membuat akun pengguna baru sekaligus
+
+4. Isi informasi dosen sesuai tabel di bawah
+
+5. Klik **Create Dosen** untuk menyimpan
+
+### Field yang Tersedia
+
+#### Identitas (Identity)
+
+| Field | Wajib? | Contoh | Keterangan |
+|-------|--------|--------|-----------|
+| **Full Name** | Ya | Dr. Budi Santoso, M.T. | Nama lengkap dengan gelar |
+| **NIDN** | Minimal satu* | 0001018501 | Nomor Induk Dosen Nasional |
+| **NUPTK** | Minimal satu* | 1234567890123456 | Nomor Unik Pendidik dan Tenaga Kependidikan |
+| **NIP** | Minimal satu* | 197003061988121000 | Nomor Induk Pegawai |
+| **Phone** | Tidak | +62812345678 | Nomor telepon |
+
+> *Minimal satu dari NIDN, NUPTK, atau NIP harus diisi.
+
+#### Informasi Akademik (Academic)
+
+| Field | Contoh | Keterangan |
+|-------|--------|-----------|
+| **Academic Position** | Asisten Ahli | Jabatan akademik dosen |
+| **Functional Position** | III/b - Penata Muda Tk. I | Golongan kepangkatan |
+| **Education Level** | S2 - Universitas Jayabaya | Tingkat pendidikan |
+| **Certification Status** | Tersertifikasi | Status sertifikasi pendidik |
+
+#### Kepegawaian (Employment)
+
+| Field | Contoh | Keterangan |
+|-------|--------|-----------|
+| **Employment Type** | NON ASN | Jenis kepegawaian (ASN, PNS, TNI, NON ASN, dll) |
+| **Lecturer Type** | Dosen Tetap | Tipe dosen |
+| **Status** | Aktif | Status dosen saat ini |
+| **Kaprodi / Dekan** | — | Centang jika dosen menjabat sebagai Kepala Prodi atau Dekan |
+
+#### Afiliasi & Riset
+
+| Field | Contoh | Keterangan |
+|-------|--------|-----------|
+| **Institution** | Universitas Dirgantara | Nama institusi |
+| **Faculty** | Fakultas Teknik | Nama fakultas |
+| **Study Program** | Teknik Informatika | Nama program studi |
+| **Years of Experience** | 10 | Jumlah tahun pengalaman mengajar |
+| **Research Areas** | Artificial Intelligence | Area keahlian penelitian (bisa lebih dari satu) |
+| **Field of Study** | Teknik Informatika | Rumpun ilmu |
+| **Address** | Jl. Contoh No. 1 | Alamat dosen |
+
 ## Melihat Detail Dosen
 
-1. Klik tombol **menu aksi** (⋮) pada baris dosen yang ingin dilihat detailnya
+1. Klik tombol menu aksi **(⋮)** pada baris dosen yang ingin dilihat
 
 2. Pilih **View Details** dari menu dropdown
 
-3. Dialog detail dosen akan terbuka menampilkan informasi lengkap:
+![Menu Aksi Dosen](/img/admin/dosen-action-menu.png)
+
+3. Dialog detail dosen akan terbuka menampilkan informasi lengkap
 
 ![Detail Profil Dosen](/img/admin/dosen-detail.png)
 
@@ -87,57 +142,59 @@ Anda dapat menggabungkan beberapa filter sekaligus untuk hasil yang lebih spesif
 
 **Contact & Identity**
 - Email
-- Nomor Registrasi
-- NUPTK (Nomor Unik Pendidik dan Tenaga Kependidikan)
-- NIP (Nomor Induk Pegawai)
-- Nomor Telepon
-- Alamat
+- No. Registrasi (NIDN)
+- NUPTK
+- NIP
+- Phone
+- Address
 
 **Academic Information**
-- Position (Posisi Akademik): Misalnya Asisten Ahli, Lektor, Profesor
-- Functional (Tingkatan Fungsional): Misalnya III/a - Penata Muda
-- Education (Tingkat Pendidikan): S1, S2, S3
-- Field (Bidang Keahlian): Rumpun ilmu terkait
+- Academic Position — jabatan akademik (Asisten Ahli, Lektor, Profesor, dll)
+- Functional — golongan kepangkatan (III/a, III/b, dll)
+- Education — tingkat pendidikan (S1, S2, S3)
+- Field — bidang keahlian / rumpun ilmu
 
 **Employment**
-- Type (Jenis Kepegawaian): Dosen Tetap, Dosen Tidak Tetap, dll
-- Lecturer (Status Dosen)
-- Institution (Institusi/Universitas)
-- Faculty (Fakultas)
-- Program (Program Studi)
+- Type — jenis kepegawaian
+- Lecturer — tipe dosen (Dosen Tetap / Dosen Tidak Tetap)
+- Institution — nama institusi
+- Faculty — nama fakultas
+- Program — nama program studi
 
 **Certification**
-- Status: Status sertifikasi (Tersertifikasi / Belum Tersertifikasi)
+- Status — status sertifikasi (Tersertifikasi / Belum Tersertifikasi)
 
 **Research & Statistics**
-- Years of Experience (Pengalaman dalam tahun)
-- Total Publications (Total publikasi ilmiah)
-- Research Projects (Jumlah proyek penelitian)
+- Years of Experience — pengalaman mengajar dalam tahun
+- Total Publications — jumlah publikasi ilmiah
+- Research Projects — jumlah proyek penelitian
 
 **Research Areas**
-- Daftar area keahlian/spesialisasi penelitian dosen
+- Daftar area keahlian / spesialisasi penelitian dosen
 
 **Timeline Information**
-- Created (Tanggal profil dibuat)
-- Last Updated (Tanggal update terakhir)
+- Created — tanggal profil dibuat
+- Last Updated — tanggal terakhir profil diperbarui
 
-:::tip[Informasi Tidak Lengkap?]
+:::tip[Data Tidak Lengkap?]
 
-Beberapa field mungkin menampilkan "Not specified" jika data belum diisi. Hubungi dosen atau administrator untuk melengkapi data.
+Field yang belum diisi akan menampilkan "Not specified". Hubungi dosen bersangkutan atau lakukan edit profil untuk melengkapi data.
 
 :::
 
 ## Mengedit Profil Dosen
 
-1. Klik tombol **menu aksi** (⋮) pada baris dosen yang ingin diedit
+1. Klik tombol menu aksi **(⋮)** pada baris dosen yang ingin diedit
 
 2. Pilih **Edit Profile** dari menu dropdown
 
-3. Form edit akan terbuka memungkinkan Anda mengubah data dosen
+3. Dialog **Edit Dosen Profile** akan terbuka dengan data dosen yang sudah terisi
 
-4. Ubah informasi yang diperlukan
+![Form Edit Profil Dosen](/img/admin/dosen-edit-form.png)
 
-5. Klik tombol **Simpan** untuk menyimpan perubahan
+4. Ubah field yang diperlukan
+
+5. Klik **Update Dosen** untuk menyimpan perubahan
 
 :::warning[Perhatian]
 
@@ -147,74 +204,86 @@ Pastikan data yang diedit akurat dan sesuai dengan verifikasi institusi.
 
 ## Menugaskan Dosen sebagai Reviewer
 
-1. Klik tombol **menu aksi** (⋮) pada baris dosen yang ingin ditugaskan sebagai reviewer
+Reviewer adalah dosen yang ditunjuk untuk mengevaluasi proposal penelitian atau pengabdian masyarakat.
+
+### Menunjuk Dosen sebagai Reviewer
+
+1. Klik tombol menu aksi **(⋮)** pada baris dosen
 
 2. Pilih **Assign as Reviewer** dari menu dropdown
 
-3. Dialog konfigurasi reviewer akan terbuka
-
-4. Atur pengaturan reviewer sesuai kebutuhan (kapasitas, spesialisasi, dll)
-
-5. Klik **Simpan** untuk menyelesaikan penugasan
+3. Dosen akan langsung ditugaskan — badge **"Reviewer"** akan muncul di profil dosen
 
 :::info[Reviewer]
 
-Dosen yang ditugaskan sebagai reviewer akan memiliki akses khusus untuk mengevaluasi proposal yang ditugaskan kepada mereka.
+Dosen yang ditugaskan sebagai reviewer akan memiliki akses untuk mengevaluasi proposal yang ditugaskan kepada mereka melalui halaman Assignments.
 
 :::
 
+### Mencabut Role Reviewer
+
+1. Klik tombol menu aksi **(⋮)** pada dosen yang ingin dicabut perannya
+
+2. Pilih **Remove Reviewer Role** dari menu dropdown
+
+3. Badge **"Reviewer"** akan hilang dari profil dosen
+
 ## Menghapus Dosen
 
-1. Klik tombol **menu aksi** (⋮) pada baris dosen yang ingin dihapus
+1. Klik tombol menu aksi **(⋮)** pada baris dosen yang ingin dihapus
 
 2. Pilih **Delete Dosen** dari menu dropdown
 
-3. Konfirmasi penghapusan akan muncul
+3. Dialog konfirmasi akan muncul
 
 4. Klik **Konfirmasi** untuk menyelesaikan penghapusan
 
 :::warning[Perhatian]
 
-Penghapusan dosen adalah tindakan yang tidak dapat dibatalkan. Pastikan Anda yakin sebelum menghapus, terutama jika dosen tersebut sudah terlibat dalam proses review proposal.
+Penghapusan dosen bersifat **permanen dan tidak dapat dibatalkan**. Pastikan Anda yakin sebelum menghapus, terutama jika dosen tersebut sudah terlibat dalam proses review proposal.
 
 :::
 
-## Import Dosen (Bulk Upload)
+## Import Data Dosen
 
-1. Klik tombol **Import** di bagian atas halaman
+Fitur import memungkinkan Anda menambahkan banyak dosen sekaligus menggunakan file CSV.
 
-2. Pilih file CSV atau Excel yang berisi data dosen
+1. Di halaman Dosen Management, klik tombol **Import** (di samping tombol "Add Dosen")
 
-3. Petunjuk format file akan ditampilkan (pastikan sesuai dengan template yang disediakan)
+2. Dialog **Import Dosen Data** akan terbuka
 
-4. Klik **Upload** untuk memulai proses import
+![Dialog Import Dosen](/img/admin/dosen-import-dialog.png)
 
-5. Sistem akan memvalidasi data dan menampilkan hasil (berhasil/gagal untuk setiap baris)
+3. Klik **Download** untuk mengunduh template CSV — gunakan template ini sebagai acuan format kolom
 
-6. Dosen yang berhasil diimport akan ditambahkan ke daftar
+4. Siapkan file CSV Anda sesuai format template (maksimal **5 MB**)
 
-:::tip[Template Import]
+5. Klik tombol **Pilih File CSV** dan pilih file dari komputer Anda
 
-Gunakan template yang disediakan oleh sistem untuk memastikan semua field dipetakan dengan benar.
+6. Klik **Import Data** untuk memulai proses import
 
-:::
+7. Sistem akan menampilkan ringkasan hasil: jumlah data berhasil ditambah, diperbarui, dan error jika ada
 
-## Menambah Dosen Baru
+### Format File CSV
 
-1. Klik tombol **Add Dosen** di bagian atas halaman
+#### Header Kolom
 
-2. Form tambah dosen akan terbuka
+```
+nidn, nuptk, fullName, email, nip, academicPosition, functionalPosition, educationLevel, fieldOfStudy, certificationStatus, employmentType, lecturerType, status, institution, faculty, studyProgram, phone, address, yearsOfExperience, totalPublications, totalResearchProjects
+```
 
-3. Isi semua informasi yang diperlukan:
-   - Data kontak dan identitas
-   - Informasi akademik
-   - Data kepegawaian
-   - Informasi sertifikasi
+#### Persyaratan Data
 
-4. Klik **Simpan** untuk menambahkan dosen baru
+| Kolom | Wajib? |
+|-------|--------|
+| **fullName** | Wajib |
+| **nidn / nuptk / nip / email** | Minimal satu harus ada |
+| Kolom lainnya | Opsional |
 
-:::info[Email Unik]
+:::info[Catatan Import]
 
-Email harus unik di sistem. Sistem akan menolak jika email sudah terdaftar.
+- Delimiter koma (`,`) maupun titik koma (`;`) terdeteksi otomatis
+- Jika dosen dengan NIDN/NUPTK/NIP/Email yang sama sudah ada, data akan **diperbarui** (tidak duplikat)
+- Email bersifat opsional dan bisa dikosongkan
 
 :::
