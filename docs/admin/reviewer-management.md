@@ -56,25 +56,36 @@ Halaman utama menampilkan tabel reviewer dengan kolom-kolom berikut:
    - **Specialization Areas**: Pilih spesialisasi dari dropdown atau ketik spesialisasi baru dan tekan Enter/klik tanda "+". Anda dapat menambah beberapa spesialisasi.
    - **Expertise Keywords**: Masukkan kata kunci keahlian spesifik (misalnya: "Machine Learning", "Cloud Architecture"), pisahkan dengan Enter
    - **Bio**: Tulis biografi singkat atau ringkasan keahlian reviewer (opsional)
-   - **Status**: Centang checkbox untuk **Active** jika reviewer siap menerima assignment
 
 4. Klik **Create Reviewer** untuk menyimpan
+
+:::info[Status Reviewer Baru]
+
+Reviewer yang baru ditambahkan otomatis berstatus **Active**. Untuk mengubah status, gunakan menu tindakan (⋮) di tabel setelah reviewer berhasil dibuat.
+
+:::
 
 ### Opsi 2: Buat User & Reviewer Baru
 
 1. Pilih radio button **Create New Reviewer User**
 2. Section "Create New Reviewer User" akan menampilkan form dengan field:
-   - **Name**: Nama lengkap
+   - **Full Name**: Nama lengkap
    - **Email**: Email unik yang belum terdaftar
-   - **NIDN**: Nomor Induk Dosen Nasional (jika tersedia)
-   - **Password**: Kata sandi awal (minimal 8 karakter)
+   - **Password**: Kata sandi awal
    - **Confirm Password**: Konfirmasi kata sandi
+   - **NIDN**: Nomor Induk Dosen Nasional (opsional)
+   - **Maximum Concurrent Reviews**: Jumlah maksimal review bersamaan (default: 5)
    - **Specialization Areas**: Spesialisasi (sama seperti opsi 1)
-   - **Expertise Keywords**: Kata kunci keahlian
-   - **Bio**: Biografi
-   - **Status**: Checkbox untuk Active
+   - **Bio / Description**: Biografi singkat (opsional)
+   - **Expertise Keywords**: Kata kunci keahlian (opsional)
 
 3. Klik **Create Reviewer** untuk menyimpan user dan profil reviewer sekaligus
+
+:::info[Status Reviewer Baru]
+
+Reviewer yang baru dibuat otomatis berstatus **Active**. Untuk mengubah status, gunakan menu tindakan (⋮) di tabel setelah reviewer berhasil dibuat.
+
+:::
 
 :::tip
 
@@ -87,12 +98,15 @@ Ketika membuat user baru, pastikan email belum digunakan oleh user lain. NIDN be
 1. Pada tabel, klik menu tiga titik (**⋮**) di baris reviewer yang ingin diedit
 2. Pilih **View / Edit** dari dropdown menu
 3. Dialog edit akan membuka dengan informasi reviewer yang sudah ada
+
+   ![Edit Reviewer](/img/admin/reviewer-edit-modal.png)
+
 4. Perbarui field yang diperlukan:
-   - Max Concurrent Reviews
-   - Specialization Areas
-   - Expertise Keywords
-   - Bio
-   - Status aktivitas
+   - **Maximum Concurrent Reviews**: Jumlah maksimal review bersamaan
+   - **Specialization Areas**: Spesialisasi reviewer
+   - **Bio / Description**: Biografi singkat
+   - **Expertise Keywords**: Kata kunci keahlian
+   - **Status**: Dropdown pilihan **Active** atau **Inactive** — gunakan ini untuk mengubah status ketersediaan reviewer
 
 5. Klik **Update Reviewer** untuk menyimpan perubahan
 
