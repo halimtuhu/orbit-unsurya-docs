@@ -54,8 +54,10 @@ Setelah memilih program dan batch, tombol **Continue to Proposal Details** akan 
 
 Klik tombol tersebut untuk masuk ke wizard 7 langkah.
 
-:::warning Perhatian
+:::warning[Perhatian]
+
 Setelah Anda memilih program dan batch, tidak dapat mengubahnya selama proses pembuatan proposal. Pastikan pilihan sudah benar sebelum melanjutkan.
+
 :::
 
 ## Langkah 1: Identitas Usulan
@@ -126,8 +128,10 @@ Bagian untuk menambahkan dosen yang terlibat dalam penelitian.
 - Status menunjukkan verifikasi anggota
 - Kolom Aksi untuk mengubah atau menghapus anggota
 
-:::tip Catatan
+:::tip[Catatan]
+
 Anggota dosen harus merupakan dosen Universitas Dirgantara Marsekal Suryadarma yang terdaftar dalam sistem.
+
 :::
 
 ### 1.5 Identitas Anggota Non Dosen Unsurya
@@ -170,8 +174,10 @@ Bagian untuk menambahkan mahasiswa yang terlibat dalam penelitian.
 
 Setelah mengisi semua field wajib, klik tombol **Lanjutkan** untuk melanjutkan ke langkah berikutnya.
 
-:::warning Penting
+:::warning[Penting]
+
 Tombol Lanjutkan hanya akan aktif jika semua field yang ditandai dengan (*) sudah diisi dengan benar. Periksa kembali data Anda sebelum melanjutkan.
+
 :::
 
 ## Langkah 2-5: Langkah Selanjutnya
@@ -213,8 +219,10 @@ Setelah menyelesaikan semua 5 langkah:
 3. Proposal akan berubah status menjadi **SUBMITTED**
 4. Anda akan menerima notifikasi bahwa proposal telah berhasil diajukan
 
-:::warning Deadline
+:::warning[Deadline]
+
 Pastikan Anda mengajukan proposal sebelum deadline batch yang Anda pilih. Proposal yang dikirim setelah deadline tidak akan diterima.
+
 :::
 
 ## Troubleshooting
