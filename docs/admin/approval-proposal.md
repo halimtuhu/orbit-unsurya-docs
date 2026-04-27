@@ -7,103 +7,122 @@ sidebar_position: 8
 
 # Approval Proposal
 
-Fitur **Approval Proposal** memungkinkan Anda melakukan review administratif terhadap proposal yang telah disubmit oleh peneliti. Dalam tahap ini, Anda memeriksa kelengkapan dokumen, kevalidan data, dan kesesuaian dengan persyaratan administratif sebelum proposal diproses lebih lanjut.
+Fitur **Approval Proposal** memungkinkan administrator/LPPM melakukan review administratif terhadap proposal yang telah disubmit oleh peneliti. Dalam tahap ini, Anda menetapkan approver untuk setiap proposal dan approver yang ditugaskan akan melakukan persetujuan atau penolakan.
 
-## Mengakses Halaman Approval
+## Mengakses Halaman Tugas Approval
 
 1. Login ke ORBIT UNSURYA dengan akun administrator
-2. Pada halaman dashboard, navigasikan ke URL `/dashboard/approvals` atau cari menu **Tugas Approval** jika tersedia di sidebar
-3. Halaman **Tugas Approval** akan menampilkan daftar proposal yang menunggu approval Anda
+2. Navigasi ke halaman **Tugas Approval** melalui URL: `/dashboard/approvals`
 
-![Halaman Approval Proposal](/img/admin/approval-page-list.png)
+![Halaman Tugas Approval](/img/admin/approval-page-list.png)
 
-## Tampilan Halaman Approval
+## Tampilan Halaman Tugas Approval
 
-Halaman Tugas Approval menampilkan statistik utama:
+Halaman **Tugas Approval** menampilkan empat kartu statistik utama:
 
-- **Total Approvals**: Jumlah total assignment approval yang diberikan kepada Anda
-- **Approved**: Jumlah proposal yang sudah Anda setujui
-- **Rejected**: Jumlah proposal yang sudah Anda tolak
-- **Pending**: Jumlah proposal yang menunggu approval dari Anda
+- **Total Approvals** — Jumlah total approval task yang ditugaskan kepada Anda
+- **Approved** — Jumlah proposal yang sudah Anda setujui
+- **Rejected** — Jumlah proposal yang sudah Anda tolak
+- **Pending** — Jumlah proposal yang masih menunggu approval dari Anda
 
-## Pencarian dan Filter
+## Mencari dan Memfilter
 
 ### Pencarian Cepat
-Gunakan kotak pencarian di bagian atas untuk mencari proposal berdasarkan:
-- Judul proposal
-- Nama ketua peneliti
+
+Gunakan kotak pencarian **Cari judul proposal, nama ketua...** di bagian atas untuk mencari proposal berdasarkan judul atau nama ketua peneliti.
 
 ### Filter Lanjutan
+
 Klik tombol **Filter Lanjutan** untuk membuka panel filter dengan opsi:
 
 ![Filter Lanjutan](/img/admin/approval-filter.png)
 
-- **Deadline**: Filter berdasarkan tanggal deadline proposal
-- **Range Budget**: Filter berdasarkan kisaran anggaran yang diminta
-- **Kategori**: Filter berdasarkan kategori penelitian atau PKM
-- **Skema**: Filter berdasarkan skema pendanaan
-- **Tingkat Urgensi**: Filter berdasarkan tingkat urgensi proposal
+- **Deadline** — Filter berdasarkan tanggal deadline approval
+- **Range Budget** — Filter berdasarkan kisaran anggaran yang diminta
+- **Kategori** — Filter berdasarkan kategori penelitian atau PKM
+- **Skema** — Filter berdasarkan skema pendanaan
+- **Tingkat Urgensi** — Filter berdasarkan tingkat urgensi proposal
+
+## Menetapkan Approver untuk Proposal
+
+Sebelum proposal muncul di halaman Tugas Approval, admin perlu menetapkan approver terlebih dahulu dari halaman detail proposal.
+
+### Langkah Menetapkan Approver
+
+1. Buka halaman **Semua Proposal** melalui menu sidebar atau navigasi ke `/dashboard/proposals`
+
+![Daftar Semua Proposal](/img/admin/approval-proposals-list.png)
+
+2. Cari proposal dengan status **Terkirim**
+3. Klik tombol **Open menu** (ikon titik tiga) di kolom Action, lalu pilih **Assign Approver/Reviewer**
+
+   Atau klik **Lihat Detail** untuk membuka halaman detail proposal, kemudian klik tombol **Assign Approver & Reviewer** di bagian atas halaman.
+
+![Halaman Detail Proposal](/img/admin/approval-proposal-detail.png)
+
+4. Dialog **Assign Reviewers & Approvers** akan terbuka
+
+![Dialog Assign Approver](/img/admin/approval-assign-dialog.png)
+
+5. Pada tab **Approvers**, klik dropdown **Choose an approver to assign** dan pilih approver yang dituju
+6. Isi **Deadline (Optional)** jika ada batas waktu approval
+7. Tambahkan **Notes (Optional)** untuk instruksi khusus kepada approver
+8. Klik tombol **Assign Approver**
+
+:::info[Informasi]
+
+Setelah approver ditetapkan, proposal akan muncul di halaman **Tugas Approval** milik approver yang bersangkutan.
+
+:::
+
+## Status Proposal dalam Proses Approval
+
+Anda dapat melihat status dan progress approval proposal dari bagian **Status Approval & Review** di halaman detail proposal.
+
+![Status Approval dan Review](/img/admin/approval-proposal-detail-status.png)
+
+Bagian ini menampilkan:
+- **Status Saat Ini** — Status proposal saat ini (contoh: Disubmit, Disetujui, Ditolak)
+- **Progress Workflow** — Checklist langkah-langkah pengisian proposal (Step 1 sampai 5)
+- **Statistik Review** — Jumlah reviewer selesai, skor rata-rata, dan jumlah approval selesai
 
 ## Melakukan Approval Proposal
 
-:::tip
-Setiap proposal dalam status SUBMITTED akan muncul di halaman Tugas Approval dan perlu dilakukan review administratif.
+Setelah admin menetapkan Anda sebagai approver untuk sebuah proposal, proposal tersebut akan muncul di halaman **Tugas Approval** Anda.
+
+:::warning[Perhatian]
+
+Keputusan approval bersifat final. Pastikan Anda telah memeriksa semua dokumen proposal dengan teliti sebelum membuat keputusan.
+
 :::
 
-### Langkah-Langkah Approval
+### Proposal yang Perlu Direview
 
-1. **Lihat daftar proposal**: Pada halaman Tugas Approval, Anda akan melihat daftar proposal yang membutuhkan approval
-2. **Pilih proposal**: Klik pada proposal yang ingin Anda review
-3. **Review data administratif**: Periksa kelengkapan dokumen dan validitas data proposal
-4. **Buat keputusan**: Pilih untuk menyetujui (approve) atau menolak (reject) proposal
-5. **Tambahkan catatan** (opsional): Tulis catatan atau alasan jika menolak proposal
-6. **Simpan keputusan**: Klik tombol Approve atau Reject untuk menyimpan keputusan Anda
+Pantau proposal yang membutuhkan review dari halaman **Dashboard Admin** di bagian **Proposal Perlu Review Administratif**.
 
-:::warning
-Setelah Anda membuat keputusan approval, status proposal akan berubah ke WAITING_APPROVAL atau REJECTED_BY_APPROVER. Pastikan data sudah benar sebelum menyimpan.
-:::
+![Dashboard Admin](/img/admin/approval-dashboard.png)
 
-## Status Proposal
+Bagian ini menampilkan:
+- Judul dan detail singkat proposal yang menunggu review administratif
+- Informasi pengusul dan kategori
+- Lama proposal menunggu review (dalam hari)
 
-Setelah Anda melakukan approval, proposal akan masuk ke salah satu status berikut:
+## Status Proposal Setelah Approval
 
-- **WAITING_APPROVAL**: Proposal sedang menunggu approval dari approver lain (jika ada multiple approvers)
-- **APPROVED**: Proposal telah disetujui dan akan dilanjutkan ke tahap administratif
-- **REJECTED_BY_APPROVER**: Proposal ditolak karena tidak memenuhi syarat administratif
+Setelah keputusan approval dibuat, proposal akan masuk ke salah satu status berikut:
+
+| Status | Keterangan |
+|--------|------------|
+| **Disetujui** | Proposal telah disetujui oleh approver dan dapat dilanjutkan ke tahap review |
+| **Pass Administratif** | Proposal lolos review administratif dan siap untuk ditugaskan ke reviewer |
+| **Ditolak oleh Approver** | Proposal ditolak karena tidak memenuhi syarat administratif |
 
 ## Riwayat Approval
 
-Sistem ORBIT UNSURYA akan secara otomatis mencatat:
-- Tanggal dan waktu Anda melakukan approval
-- Keputusan yang Anda buat (approve/reject)
-- Catatan atau alasan yang Anda berikan
-- Data diri approver
+Sistem ORBIT UNSURYA secara otomatis mencatat setiap keputusan approval, meliputi:
+- Tanggal dan waktu keputusan dibuat
+- Keputusan yang diambil (disetujui/ditolak)
+- Catatan atau alasan yang diberikan
+- Identitas approver
 
-Riwayat ini dapat dilihat dalam detail proposal untuk keperluan audit dan dokumentasi.
-
-## Tips Efisiensi
-
-:::tip
-Berikut tips untuk melakukan approval proposal secara efisien:
-
-1. **Gunakan filter untuk mengelompokkan**: Sortir proposal berdasarkan deadline atau kategori untuk prioritas
-2. **Batch review**: Jika ada banyak proposal dengan kategori sama, review secara bersamaan untuk konsistensi
-3. **Catatan terstruktur**: Jika menolak, tulis catatan yang spesifik sehingga peneliti dapat memperbaiki
-4. **Periksa ulang**: Sebelum menyimpan keputusan, pastikan semua dokumen sudah diperiksa dengan teliti
-:::
-
-## Troubleshooting
-
-**Proposal tidak muncul di halaman Approval**
-- Pastikan proposal sudah berstatus SUBMITTED
-- Refresh halaman browser (Ctrl+F5 atau Cmd+Shift+R)
-- Periksa filter atau pencarian yang aktif
-
-**Tidak bisa mengubah keputusan approval**
-- Keputusan approval bersifat final dan tidak dapat diubah setelah disimpan
-- Hubungi administrator jika perlu rollback keputusan
-
-**Error saat menyimpan keputusan**
-- Pastikan koneksi internet stabil
-- Tunggu beberapa saat dan coba lagi
-- Hubungi tim support jika error terus berlanjut
+Riwayat ini dapat dilihat dalam halaman detail proposal untuk keperluan audit dan dokumentasi.
