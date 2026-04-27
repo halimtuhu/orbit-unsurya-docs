@@ -272,80 +272,15 @@ Anggaran yang diajukan harus realistis dan dapat dipertanggungjawabkan. Reviewer
 
 ### Melanjutkan ke Langkah 4
 
-Setelah mengisi semua komponen anggaran, klik tombol **Lanjutkan** untuk melanjutkan ke langkah berikutnya.
+Setelah mengisi semua komponen anggaran, klik tombol **Lanjutkan** untuk melanjutkan ke langkah Dokumen Pendukung.
 
-## Langkah 4: Indikator Kinerja Utama (IKU)
-
-Langkah ini meminta Anda untuk menentukan indikator kinerja yang akan digunakan untuk mengukur kesuksesan penelitian atau pengabdian.
-
-![Indikator Kinerja Utama](/img/dosen/proposal-create-step4-iku.png)
-
-### 4.1 Penetapan Indikator
-
-**Indikator Kinerja Utama (Wajib)**
-- Tentukan indikator-indikator yang akan digunakan untuk mengukur kesuksesan penelitian
-- Indikator harus terukur, spesifik, dan realistis
-- Contoh: jumlah publikasi, jumlah produk yang dihasilkan, jumlah masyarakat yang terlayani, dll
-
-**Target Pencapaian (Wajib)**
-- Untuk setiap indikator, tentukan target kuantitatif yang ingin dicapai
-- Jelaskan bagaimana target ini akan diukur dan diverifikasi
-- Target harus konsisten dengan tujuan penelitian yang telah ditetapkan
-
-### 4.2 Standar dan Kriteria Keberhasilan
-
-**Kriteria Keberhasilan (Wajib)**
-- Definisikan kriteria yang menunjukkan penelitian/pengabdian telah berhasil
-- Jelaskan bagaimana kesuksesan akan dievaluasi
-- Tentukan standar atau threshold yang digunakan untuk penilaian
-
-:::info[Informasi]
-
-Indikator kinerja yang baik harus SMART: Specific (spesifik), Measurable (terukur), Achievable (dapat dicapai), Relevant (relevan), dan Time-bound (terikat waktu).
-
-:::
-
-### Melanjutkan ke Langkah 5
-
-Setelah menetapkan indikator kinerja, klik tombol **Lanjutkan** untuk melanjutkan ke langkah SDGs.
-
-## Langkah 5: Sustainable Development Goals (SDGs)
-
-Langkah ini meminta Anda untuk mengaitkan penelitian atau pengabdian dengan Tujuan Pembangunan Berkelanjutan (SDGs) PBB.
-
-![SDGs](/img/dosen/proposal-create-step5-sdgs.png)
-
-### 5.1 Pemilihan SDGs
-
-**SDGs Terkait (Wajib)**
-- Pilih satu atau lebih SDGs yang relevan dengan penelitian Anda
-- 17 SDGs tersedia: Tanpa Kemiskinan, Tanpa Kelaparan, Kesehatan yang Baik, dll
-- Setiap SDGs memiliki target dan indikator spesifik
-
-### 5.2 Kontribusi terhadap SDGs
-
-**Penjelasan Kontribusi (Wajib)**
-- Jelaskan bagaimana penelitian Anda berkontribusi pada SDGs yang dipilih
-- Uraikan dampak sosial, ekonomi, atau lingkungan yang diharapkan
-- Hubungkan luaran penelitian dengan target-target SDGs
-
-:::tip[Catatan]
-
-Pemilihan SDGs yang tepat menunjukkan bahwa penelitian Anda memiliki dampak sosial yang relevan dan berkelanjutan.
-
-:::
-
-### Melanjutkan ke Langkah 6
-
-Setelah memilih SDGs dan menjelaskan kontribusi, klik tombol **Lanjutkan** untuk melanjutkan ke langkah dokumen pendukung.
-
-## Langkah 6: Dokumen Pendukung
+## Langkah 4: Dokumen Pendukung
 
 Langkah ini meminta Anda untuk mengunggah dokumen-dokumen yang mendukung proposal Anda.
 
-![Dokumen Pendukung](/img/dosen/proposal-create-step6-dokumen.png)
+![Dokumen Pendukung](/img/dosen/proposal-create-step4-dokumen.png)
 
-### 6.1 Upload Dokumen
+### 4.1 Upload Dokumen
 
 **Dokumen yang Diperlukan (Tergantung Program)**
 - Berbagai dokumen mungkin diperlukan tergantung program dan skema yang dipilih
@@ -358,7 +293,7 @@ Langkah ini meminta Anda untuk mengunggah dokumen-dokumen yang mendukung proposa
 3. Tentukan tipe dokumen dari dropdown (jika ada)
 4. File akan otomatis diupload ke sistem
 
-### 6.2 Daftar Dokumen Terupload
+### 4.2 Daftar Dokumen Terupload
 
 **Tabel Dokumen**
 - Menampilkan semua dokumen yang telah diupload
@@ -374,17 +309,17 @@ Langkah ini meminta Anda untuk mengunggah dokumen-dokumen yang mendukung proposa
 
 :::
 
-### Melanjutkan ke Langkah 7
+### Melanjutkan ke Langkah 5
 
 Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah konfirmasi.
 
-## Langkah 7: Konfirmasi dan Pengajuan Proposal
+## Langkah 5: Konfirmasi dan Pengajuan Proposal
 
 Langkah terakhir adalah mereviu semua data proposal Anda dan mengajukannya.
 
-![Konfirmasi Proposal](/img/dosen/proposal-create-step7-konfirmasi.png)
+![Konfirmasi Proposal](/img/dosen/proposal-create-step5-konfirmasi.png)
 
-### 7.1 Review Data Proposal
+### 5.1 Review Data Proposal
 
 **Ringkasan Proposal**
 - Halaman ini menampilkan ringkasan lengkap dari semua langkah yang telah diisi
@@ -392,8 +327,6 @@ Langkah terakhir adalah mereviu semua data proposal Anda dan mengajukannya.
   - Identitas Usulan
   - Substansi Usulan
   - Rancangan Anggaran Biaya
-  - Indikator Kinerja Utama
-  - SDGs
   - Dokumen Pendukung
 
 **Periksa Kembali Setiap Bagian**
@@ -401,7 +334,7 @@ Langkah terakhir adalah mereviu semua data proposal Anda dan mengajukannya.
 - Pastikan semua informasi sudah benar dan lengkap
 - Jika ada yang salah, gunakan tombol **Ubah** untuk kembali ke langkah sebelumnya
 
-### 7.2 Tombol Aksi
+### 5.2 Tombol Aksi
 
 **Tombol Ubah**
 - Klik untuk kembali dan memperbaiki data pada langkah tertentu
@@ -442,21 +375,6 @@ Jika Anda ingin mengerjakan proposal kemudian:
 2. Proposal akan tersimpan dalam status **DRAFT**
 3. Buka kembali proposal dari menu **Proposal Saya**
 4. Klik proposal berstatus DRAFT untuk melanjutkan pengerjaan
-
-## Mengajukan Proposal
-
-Setelah menyelesaikan semua 5 langkah:
-
-1. Lakukan review menyeluruh di langkah "KONFIRMASI USULAN"
-2. Jika semua data sudah benar, klik tombol **Submit** atau **Kirim Proposal**
-3. Proposal akan berubah status menjadi **SUBMITTED**
-4. Anda akan menerima notifikasi bahwa proposal telah berhasil diajukan
-
-:::warning[Deadline]
-
-Pastikan Anda mengajukan proposal sebelum deadline batch yang Anda pilih. Proposal yang dikirim setelah deadline tidak akan diterima.
-
-:::
 
 ## Troubleshooting
 
