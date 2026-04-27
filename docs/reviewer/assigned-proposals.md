@@ -22,6 +22,8 @@ Anda akan diarahkan ke halaman Tugas Assignment.
 
 Tab **Pending Assignment** menampilkan daftar assignment yang belum Anda respons — masih menunggu keputusan untuk diterima atau ditolak.
 
+![Tab Pending Assignment](/img/reviewer/assignments-pending-tab.png)
+
 Setiap kartu assignment menampilkan informasi berikut:
 
 | Informasi | Keterangan |

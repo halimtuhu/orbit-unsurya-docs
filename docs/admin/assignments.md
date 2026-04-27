@@ -149,6 +149,12 @@ Untuk melihat hasil evaluasi dari reviewer, klik tombol **Lihat Evaluasi Reviewe
 
 Setelah admin menugaskan reviewer, reviewer akan melihat penugasan tersebut di halaman **Tugas Assignment** (`/dashboard/assignments`).
 
+:::info[Tampilan Khusus Reviewer]
+
+Bagian ini menggambarkan tampilan yang hanya terlihat saat login menggunakan akun **Reviewer** — bukan akun Admin. Admin tidak dapat melihat halaman ini secara langsung.
+
+:::
+
 ### Tab Pending Assignment
 
 Reviewer melihat semua penugasan yang belum direspons. Setiap kartu penugasan menampilkan:
