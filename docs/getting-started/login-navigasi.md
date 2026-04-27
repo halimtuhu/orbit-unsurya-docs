@@ -85,6 +85,8 @@ Setelah login berhasil, Anda akan masuk ke **Dashboard** yang menampilkan ringka
   - Beban Kerja Saat Ini (current workload dengan kapasitas)
   - Spesialisasi Match (persentase matching antara spesialisasi reviewer dengan proposal yang direview)
 
+![Dashboard Reviewer](/img/getting-started/dashboard-reviewer.png)
+
 ## Navigasi Sidebar
 
 Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berbeda-beda tergantung pada role Anda.
@@ -150,6 +152,8 @@ Sidebar di sebelah kiri menampilkan menu navigasi utama. Menu yang tersedia berb
 - **Tugas Assignment**: Lihat proposal yang ditugaskan untuk direview
 - **Tugas Review**: Lihat daftar review yang harus dikerjakan
 - **Tugas Monev** (jika ada): Tugas monitoring dan evaluasi
+
+![Sidebar Reviewer](/img/getting-started/sidebar-reviewer.png)
 
 ## Cara Logout
 
