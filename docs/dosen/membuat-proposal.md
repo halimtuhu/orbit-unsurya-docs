@@ -180,26 +180,259 @@ Tombol Lanjutkan hanya akan aktif jika semua field yang ditandai dengan (*) suda
 
 :::
 
-## Langkah 2-5: Langkah Selanjutnya
+## Langkah 2: Substansi Usulan
 
-Wizard terdiri dari 5 langkah utama yang harus diselesaikan secara berurutan:
+Langkah ini meminta Anda untuk menjelaskan substansi atau inti dari penelitian atau pengabdian yang akan dilakukan.
 
-1. **IDENTITAS USULAN** - Informasi dasar dan tim penelitian (Langkah 1)
-2. **SUBSTANSI USULAN** - Deskripsi, tujuan, dan metodologi penelitian
-3. **RAB** - Rencana anggaran biaya
-4. **DOKUMEN PENDUKUNG** - Upload dokumen pendukung
-5. **KONFIRMASI USULAN** - Periksa dan konfirmasi semua data sebelum submit
+![Substansi Usulan](/img/dosen/proposal-create-step2-substansi.png)
 
-Setiap langkah akan menjadi aktif setelah langkah sebelumnya berhasil diselesaikan.
+### 2.1 Penjelasan Singkat Usulan
 
-:::info[Informasi Penting]
+**Ringkasan Eksekutif (Wajib)**
+- Uraikan ringkasan singkat tentang penelitian atau pengabdian Anda
+- Jelaskan latar belakang dan pentingnya penelitian ini
+- Maksimal 500-1000 karakter
 
-- Setiap langkah dapat disimpan dan dikerjakan kemudian (status DRAFT)
-- Gunakan tombol "Kembali" untuk kembali ke langkah sebelumnya
-- Data Anda otomatis tersimpan saat mengisi form
-- Jangan lupa untuk menyelesaikan semua langkah sebelum mengajukan proposal
+### 2.2 Tujuan dan Target
+
+**Tujuan Penelitian/Pengabdian (Wajib)**
+- Tuliskan tujuan utama dari penelitian atau pengabdian
+- Jelaskan apa yang ingin dicapai dengan penelitian ini
+- Tujuan harus terukur dan spesifik
+
+**Luaran yang Diharapkan (Wajib)**
+- Deskripsikan hasil atau luaran yang diharapkan dari penelitian
+- Contoh: publikasi, produk, layanan masyarakat, dll
+- Spesifikasikan jumlah dan jenis luaran
+
+### 2.3 Metodologi
+
+**Metode Penelitian/Pendekatan (Wajib)**
+- Jelaskan metodologi atau pendekatan yang akan digunakan
+- Deskripsikan tahapan-tahapan pelaksanaan
+- Jelaskan teknik pengumpulan dan analisis data
+
+**Jadwal Pelaksanaan (Wajib)**
+- Buatlah rencana jadwal kegiatan penelitian
+- Dengan memperhatikan durasi yang telah ditentukan pada langkah sebelumnya
+- Jelaskan alokasi waktu untuk setiap tahapan kegiatan
+
+:::tip[Catatan]
+
+Substansi usulan harus jelas dan terstruktur. Reviewer akan mengevaluasi kualitas ide dan metodologi penelitian Anda berdasarkan bagian ini.
 
 :::
+
+### Melanjutkan ke Langkah 3
+
+Setelah mengisi semua field substansi, klik tombol **Lanjutkan** untuk melanjutkan ke langkah rancangan anggaran biaya.
+
+## Langkah 3: Rancangan Anggaran Biaya (RAB)
+
+Langkah ini meminta Anda untuk merencanakan dan mengalokasikan anggaran untuk penelitian atau pengabdian Anda.
+
+![Rancangan Anggaran Biaya](/img/dosen/proposal-create-step3-rab.png)
+
+### 3.1 Komponen Biaya
+
+Pada langkah ini, Anda akan mengalokasikan anggaran ke beberapa komponen utama:
+
+**Biaya Tenaga Kerja (Wajib)**
+- Alokasikan biaya untuk tenaga peneliti dan asisten penelitian
+- Tentukan durasi keterlibatan dan tarif per jam/bulan
+- Hitung total biaya tenaga kerja
+
+**Biaya Bahan dan Peralatan (Wajib)**
+- Tentukan bahan-bahan yang diperlukan untuk penelitian
+- Alokasikan biaya untuk peralatan yang harus dibeli atau disewa
+- Jelaskan kebutuhan dan spesifikasi untuk setiap item
+
+**Biaya Perjalanan (Opsional)**
+- Jika diperlukan, alokasikan biaya untuk perjalanan dinas
+- Tentukan tujuan, durasi, dan estimasi biaya perjalanan
+- Jelaskan alasan dan kebutuhan perjalanan
+
+**Biaya Lainnya (Opsional)**
+- Alokasikan biaya untuk komponen lain yang diperlukan
+- Contoh: publikasi, seminar, asuransi, administrasi, dll
+- Jelaskan detail dan kebutuhan untuk setiap komponen
+
+### 3.2 Ringkasan Anggaran
+
+**Total Anggaran (Wajib)**
+- Total anggaran yang diminta otomatis dihitung dari semua komponen
+- Pastikan total anggaran tidak melebihi batas maksimal program
+- Informasi batas maksimal dapat dilihat dari informasi program
+
+:::warning[Perhatian]
+
+Anggaran yang diajukan harus realistis dan dapat dipertanggungjawabkan. Reviewer akan mengevaluasi kewajaran anggaran yang Anda usulkan.
+
+:::
+
+### Melanjutkan ke Langkah 4
+
+Setelah mengisi semua komponen anggaran, klik tombol **Lanjutkan** untuk melanjutkan ke langkah berikutnya.
+
+## Langkah 4: Indikator Kinerja Utama (IKU)
+
+Langkah ini meminta Anda untuk menentukan indikator kinerja yang akan digunakan untuk mengukur kesuksesan penelitian atau pengabdian.
+
+![Indikator Kinerja Utama](/img/dosen/proposal-create-step4-iku.png)
+
+### 4.1 Penetapan Indikator
+
+**Indikator Kinerja Utama (Wajib)**
+- Tentukan indikator-indikator yang akan digunakan untuk mengukur kesuksesan penelitian
+- Indikator harus terukur, spesifik, dan realistis
+- Contoh: jumlah publikasi, jumlah produk yang dihasilkan, jumlah masyarakat yang terlayani, dll
+
+**Target Pencapaian (Wajib)**
+- Untuk setiap indikator, tentukan target kuantitatif yang ingin dicapai
+- Jelaskan bagaimana target ini akan diukur dan diverifikasi
+- Target harus konsisten dengan tujuan penelitian yang telah ditetapkan
+
+### 4.2 Standar dan Kriteria Keberhasilan
+
+**Kriteria Keberhasilan (Wajib)**
+- Definisikan kriteria yang menunjukkan penelitian/pengabdian telah berhasil
+- Jelaskan bagaimana kesuksesan akan dievaluasi
+- Tentukan standar atau threshold yang digunakan untuk penilaian
+
+:::info[Informasi]
+
+Indikator kinerja yang baik harus SMART: Specific (spesifik), Measurable (terukur), Achievable (dapat dicapai), Relevant (relevan), dan Time-bound (terikat waktu).
+
+:::
+
+### Melanjutkan ke Langkah 5
+
+Setelah menetapkan indikator kinerja, klik tombol **Lanjutkan** untuk melanjutkan ke langkah SDGs.
+
+## Langkah 5: Sustainable Development Goals (SDGs)
+
+Langkah ini meminta Anda untuk mengaitkan penelitian atau pengabdian dengan Tujuan Pembangunan Berkelanjutan (SDGs) PBB.
+
+![SDGs](/img/dosen/proposal-create-step5-sdgs.png)
+
+### 5.1 Pemilihan SDGs
+
+**SDGs Terkait (Wajib)**
+- Pilih satu atau lebih SDGs yang relevan dengan penelitian Anda
+- 17 SDGs tersedia: Tanpa Kemiskinan, Tanpa Kelaparan, Kesehatan yang Baik, dll
+- Setiap SDGs memiliki target dan indikator spesifik
+
+### 5.2 Kontribusi terhadap SDGs
+
+**Penjelasan Kontribusi (Wajib)**
+- Jelaskan bagaimana penelitian Anda berkontribusi pada SDGs yang dipilih
+- Uraikan dampak sosial, ekonomi, atau lingkungan yang diharapkan
+- Hubungkan luaran penelitian dengan target-target SDGs
+
+:::tip[Catatan]
+
+Pemilihan SDGs yang tepat menunjukkan bahwa penelitian Anda memiliki dampak sosial yang relevan dan berkelanjutan.
+
+:::
+
+### Melanjutkan ke Langkah 6
+
+Setelah memilih SDGs dan menjelaskan kontribusi, klik tombol **Lanjutkan** untuk melanjutkan ke langkah dokumen pendukung.
+
+## Langkah 6: Dokumen Pendukung
+
+Langkah ini meminta Anda untuk mengunggah dokumen-dokumen yang mendukung proposal Anda.
+
+![Dokumen Pendukung](/img/dosen/proposal-create-step6-dokumen.png)
+
+### 6.1 Upload Dokumen
+
+**Dokumen yang Diperlukan (Tergantung Program)**
+- Berbagai dokumen mungkin diperlukan tergantung program dan skema yang dipilih
+- Dokumen umum meliputi: CV peneliti utama, surat dukungan institusi, izin etik, dll
+- Pastikan dokumen sudah lengkap sebelum mengupload
+
+**Cara Upload Dokumen**
+1. Klik tombol **+ Tambah Dokumen** atau **Upload**
+2. Pilih file dari komputer Anda
+3. Tentukan tipe dokumen dari dropdown (jika ada)
+4. File akan otomatis diupload ke sistem
+
+### 6.2 Daftar Dokumen Terupload
+
+**Tabel Dokumen**
+- Menampilkan semua dokumen yang telah diupload
+- Kolom: Nama Dokumen, Tipe, Ukuran, Tanggal Upload, Aksi
+- Anda dapat mengunduh atau menghapus dokumen yang sudah diupload
+
+:::warning[Perhatian]
+
+- Pastikan semua dokumen yang diperlukan sudah diupload
+- Ukuran file biasanya dibatasi (cek petunjuk di halaman)
+- Format file yang diterima biasanya: PDF, DOCX, XLS, XLSX, JPG, PNG
+- Nama file harus deskriptif dan tidak mengandung karakter khusus
+
+:::
+
+### Melanjutkan ke Langkah 7
+
+Setelah mengunggah semua dokumen yang diperlukan, klik tombol **Lanjutkan** untuk melanjutkan ke langkah konfirmasi.
+
+## Langkah 7: Konfirmasi dan Pengajuan Proposal
+
+Langkah terakhir adalah mereviu semua data proposal Anda dan mengajukannya.
+
+![Konfirmasi Proposal](/img/dosen/proposal-create-step7-konfirmasi.png)
+
+### 7.1 Review Data Proposal
+
+**Ringkasan Proposal**
+- Halaman ini menampilkan ringkasan lengkap dari semua langkah yang telah diisi
+- Informasi disusun per bagian:
+  - Identitas Usulan
+  - Substansi Usulan
+  - Rancangan Anggaran Biaya
+  - Indikator Kinerja Utama
+  - SDGs
+  - Dokumen Pendukung
+
+**Periksa Kembali Setiap Bagian**
+- Baca dengan teliti setiap bagian
+- Pastikan semua informasi sudah benar dan lengkap
+- Jika ada yang salah, gunakan tombol **Ubah** untuk kembali ke langkah sebelumnya
+
+### 7.2 Tombol Aksi
+
+**Tombol Ubah**
+- Klik untuk kembali dan memperbaiki data pada langkah tertentu
+- Anda akan diminta memilih langkah mana yang akan diubah
+- Setelah selesai mengubah, Anda akan kembali ke halaman konfirmasi
+
+**Tombol Submit / Kirim Proposal**
+- Klik untuk mengajukan proposal secara resmi
+- Setelah diklik, proposal akan masuk ke status **SUBMITTED**
+- Anda tidak dapat mengubah proposal setelah disubmit
+- Sistem akan menampilkan notifikasi sukses
+
+:::warning[Penting - Perhatian Sebelum Submit]
+
+Pastikan:
+- Semua data sudah benar dan lengkap
+- Semua dokumen pendukung sudah diupload
+- Proposal akan diajukan sebelum deadline batch
+- Anda telah menyimpan salinan proposal (jika diperlukan)
+
+Setelah mengklik Submit, Anda tidak dapat mengubah proposal. Jika ada kesalahan, Anda harus menghubungi administrator untuk revisi.
+
+:::
+
+### Status Setelah Pengajuan
+
+Setelah proposal disubmit:
+1. Status berubah menjadi **SUBMITTED**
+2. Anda akan menerima notifikasi email
+3. Proposal akan masuk ke antrian proses evaluasi
+4. Anda dapat memantau status proposal di halaman "Proposal Saya"
 
 ## Menyimpan dan Melanjutkan Nanti
 
