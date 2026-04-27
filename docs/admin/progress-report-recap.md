@@ -141,5 +141,5 @@ Pastikan laporan sudah dikumpulkan oleh peneliti sebelum periode penutupan yang 
 :::
 
 :::tip
-Untuk membuka atau menutup periode pengumpulan laporan kemajuan, gunakan menu **Periode Pelaporan** di bagian Pengaturan Program. Lihat halaman [Periode Pelaporan](/docs/admin/reporting-periods) untuk informasi lebih lanjut.
+Untuk membuka atau menutup periode pengumpulan laporan kemajuan, gunakan menu **Periode Pelaporan** di bagian Pengaturan Program. Lihat halaman [Periode Pelaporan](./reporting-periods) untuk informasi lebih lanjut.
 :::
